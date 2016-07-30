@@ -1,17 +1,4 @@
-﻿\newglossaryentry{mfccoda}{
-	name=MFCC\_0\_D\_A,
-	description = {MFCC features with energy, delta and double-delta coefficients},
-	sort=mfccoda,
-	type=TechTerms
-}
-\newglossaryentry{mfccda}{
-	name= MFCC\_D\_A,
-	description = {MFCC features without energy but with delta and double-delta coefficients},
-	sort=mfccda,
-	type=TechTerms
-}
-
-\newglossaryentry{graph}{
+﻿\newglossaryentry{graph}{
 	name=graph,
 	description = {Graph},
 	sort=graph,
@@ -62,8 +49,15 @@
 
 \newglossaryentry{essentia}{
 	name=Essentia,
-	description = {Audio processing toolbox~\cite{bogdanov2013essentia} XX},
+	description = {An open-source library for audio analysis and audio-based music information retrieval~\cite{bogdanov2013essentia} XX},
 	sort=Essentia,
+	type=TechTerms
+}
+
+\newglossaryentry{MELODIA}{
+	name=\texttt{MELODIA},
+	description = {\gls{essentia} implementation of the predominant melody extraction method proposed by~\citeA{salamon2012melody}},
+	sort=melodia,
 	type=TechTerms
 }
 
@@ -87,15 +81,12 @@
 
 % algorithm acronyms
 \newacronym{YIN}{\texttt{YIN}}{YIN algorithmXX}
-\newacronym{MELODIA}{\texttt{MELODIA}}{MELODIA algorithmXX}
-\newacronym{SENYIN}{\texttt{SEN-YIN}}{Predominant melody extraction procedure described in~\protect\cite{senturk2012linking_CompMusicWorkshopIstanbul}}
+\newacronym{SENYIN}{\texttt{SEN-YIN}\texttt{$_f$}}{Predominant melody extraction procedure described in~\protect\cite{senturk2012linking_CompMusicWorkshopIstanbul}}
 \newacronym{SENMEL}{\texttt{SEN-MEL}}{Predominant melody extraction procedure described in~\protect\cite{senturk2014sectionLinking}}
 \newacronym{ATLMEL}{\texttt{ATL-MEL}}{Predominant melody extraction procedure described in~\protect\cite{atli2014makamFeature_atmm}}
-\newacronym{ATLMELf}{\texttt{ATL-MEL\_f}}{Filtered variant of the predominant melody extraction procedure described in~\protect\cite{atli2014makamFeature_atmm} using~\protect\cite{bozkurt2008automatic}}
+\newacronym{ATLMELf}{\texttt{ATL-MEL}\texttt{$_f$}}{Filtered variant of the predominant melody extraction procedure described in~\protect\cite{atli2014makamFeature_atmm} using~\protect\cite{bozkurt2008automatic}}
 
 \newacronym{ATLTON}{\texttt{ATL-TON}}{Tonic identification method described in~\protect\cite{atli2015tonic_fma}}
-
-
 
 % other acronyms
 \newacronym{OTMM}{OTMM}{Ottoman-Turkish makam music}
