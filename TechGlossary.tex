@@ -49,7 +49,7 @@
 
 \newglossaryentry{essentia}{
 	name=Essentia,
-	description = {An open-source library for audio analysis and audio-based music information retrieval~\cite{bogdanov2013essentia} XX},
+	description = {An open-source library for audio analysis and audio-based music information retrieval~\cite{bogdanov2013essentia}},
 	sort=Essentia,
 	type=TechTerms
 }
@@ -58,6 +58,27 @@
 	name=\texttt{MELODIA},
 	description = {\gls{essentia} implementation of the predominant melody extraction method proposed by~\citeA{salamon2012melody}},
 	sort=melodia,
+	type=TechTerms
+}
+
+\newglossaryentry{MusicBrainz}{
+	name=\texttt{MusicBrainz},
+	description = {An open music encyclopedia of metadata},
+	sort=musicbrianz,
+	type=TechTerms
+}
+
+\newglossaryentry{Makam Toolbox}{
+	name=\texttt{Makam Toolbox},
+	description = {A makam audio analysis framework developed by~\citeA{gedik2010pitch}},
+	sort=makamtoolbox,
+	type=TechTerms
+}
+
+\newglossaryentry{Sonic Visualizer}{
+	name=\texttt{Sonic Visualizer},
+	description = {A audio analysis and visualization application developed at the Centre for Digital Music, Queen Mary, University of London},
+	sort=sonicvisualizer,
 	type=TechTerms
 }
 
@@ -75,29 +96,34 @@
 \newacronym{SymbTr}{SymbTr}{The collection of machine-readable Ottoman-Turkish makam music scores by~\protect\citeA{karaosmanoglu2012symbtr}}
 
 % features
-\newacronym{HPCP}{HPCP}{Harmonic pitch class profile~\protect\cite{gomez2006tonal}}
-\newacronym{PD}{PD}{Pitch distribution}
-\newacronym{PCD}{PCD}{Pitch-class distribution}
+\newacronym[plural=HPCPs, firstplural=harmonic pitch class profiles (HPCPs)~\protect\cite{gomez2006tonal}]{HPCP}{HPCP}{harmonic pitch class profile~\protect\cite{gomez2006tonal}}
+\newacronym{PD}{PD}{pitch distribution}
+\newacronym{PCD}{PCD}{pitch-class distribution}
 
 % algorithm acronyms
-\newacronym{YIN}{\texttt{YIN}}{YIN algorithmXX}
-\newacronym{SENYIN}{\texttt{SEN-YIN}\texttt{$_f$}}{Predominant melody extraction procedure described in~\protect\cite{senturk2012linking_CompMusicWorkshopIstanbul}}
-\newacronym{SENMEL}{\texttt{SEN-MEL}}{Predominant melody extraction procedure described in~\protect\cite{senturk2014sectionLinking}}
-\newacronym{ATLMEL}{\texttt{ATL-MEL}}{Predominant melody extraction procedure described in~\protect\cite{atli2014makamFeature_atmm}}
-\newacronym{ATLMELf}{\texttt{ATL-MEL}\texttt{$_f$}}{Filtered variant of the predominant melody extraction procedure described in~\protect\cite{atli2014makamFeature_atmm} using~\protect\cite{bozkurt2008automatic}}
+\newacronym{YIN}{\texttt{YIN}}{The fundamental pitch extraction method proposed by~\protect\cite{de2002yin}}
+\newacronym{VMD}{\texttt{VMD}}{variational mode decomposition}
+\newacronym{VMDSIM}{\texttt{VMD-SIM}}{The predominant melody extraction method proposed by~\protect\cite{csimcsek2016fundamental}}
+\newacronym{SENYIN}{\texttt{SEN-YIN}\texttt{$_f$}}{The predominant melody extraction procedure described in~\protect\cite{senturk2012linking_CompMusicWorkshopIstanbul}}
+\newacronym{SENMEL}{\texttt{SEN\--MEL}}{The predominant melody extraction procedure described in~\protect\cite{senturk2014sectionLinking}}
+\newacronym{ATLMEL}{\texttt{ATL-MEL}}{The predominant melody extraction procedure described in~\protect\cite{atli2014makamFeature_atmm}}
+\newacronym{ATLMELf}{\texttt{ATL-MEL}\texttt{$_f$}}{The filtered variant of the predominant melody extraction procedure described in~\protect\cite{atli2014makamFeature_atmm} using~\protect\cite{bozkurt2008automatic}}
 
-\newacronym{ATLTON}{\texttt{ATL-TON}}{Tonic identification method described in~\protect\cite{atli2015tonic_fma}}
+\newacronym{ATLTON}{\texttt{ATL\--TON}}{The tonic identification method described in~\protect\cite{atli2015tonic_fma}}
 
-\newacronym{MORTY}{\texttt{MORTY}}{\textbf{MO}de~\textbf{R}ecognition and~\textbf{T}onic~\textbf{Y}dentification Toolbox, described in~\protect\cite{karakurt2016morty}}
+\newacronym{MORTY}{\texttt{MORTY}}{\textbf{MO}de~\textbf{R}ecognition and~\textbf{T}o\-nic~\textbf{Y}dentification Toolbox, described in~\protect\cite{karakurt2016morty_dlfm}}
+\newacronym{kNN}{\texttt{$k$}\texttt{NN}}{$k$ nearest neighbors}
 
+
+\newacronym{tomato}{\texttt{tomato}}{\textbf{T}urkish-\textbf{O}ttoman \textbf{M}akam (M)usic \textbf{A}nalysis \textbf{TO}olbox}
 
 % other acronyms
-\newacronym{OTMM}{OTMM}{Ottoman-Turkish makam music}
 \newacronym{MIR}{MIR}{Music Information Research}
 \newacronym{ICT}{ICT}{Information and Communication Technologies}
 \newacronym{MIREX}{MIREX}{Music Information Retrieval EXchange}
 
 \newacronym{SVG}{SVG}{Scalable Vector Graphics Format}
+\newacronym{MBID}{MBID}{\gls{MusicBrainz} Identifier}
 
 
 %%%%%%%%%%%%%%%% Ajay's glossary entries below %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
