@@ -85,6 +85,13 @@
 	type=TechTerms
 }
 
+\newglossaryentry{Wikipedia}{
+	name=Wikipedia,
+	description = {XX},
+	sort=wikipedia,
+	type=TechTerms
+}
+
 \newglossaryentry{Makam Toolbox}{
 	name=Makam Toolbox,
 	description = {a makam audio analysis framework developed by~\citeA{gedik2010pitch}},
@@ -186,6 +193,8 @@
 \newacronym{UHHD}{\textbf{UHHD}}{Uzun Hava Humdrum Data\-base}
 \newacronym{TSMD}{\textbf{TSMD}}{T\"{u}rk Sanat M\"{u}zi\u{g}i Derlemi (English: Turkish Art Music Corpus)}
 
+\newacronym{OTMMsection}{\textbf{OTMM-section-linking}}{CompMusic Ottoman-Turkish makam music section linking test dataset}
+
 % features and representations
 \newacronym[plural=HPCPs, firstplural=harmonic pitch class profiles (HPCPs)~\protect\cite{gomez2006tonal}]{HPCP}{HPCP}{harmonic pitch class profile~\protect\cite{gomez2006tonal}}
 \newacronym{PD}{PD}{pitch distribution}
@@ -208,10 +217,16 @@
 \newacronym{ATLMELf}{\texttt{ATL-MEL}\texttt{$_f$}}{the variant of the predominant melody extraction procedure described in~\protect\cite{atli2014makamFeature_atmm} using the post filtering method described in~\protect\cite{bozkurt2008automatic}}
 
 \newacronym{ATLTON}{\texttt{ATL\--TON}}{the tonic identification method described in~\protect\cite{atli2015tonic_fma}}
+\newacronym{SENTON1}{\texttt{SEN\--TON\texttt{$_{PCD}$}}}{the tonic identification method by score template distribution matching~\protect\cite{senturk2013karar_ismir}}
+\newacronym{SENTON2}{\texttt{SEN\--TON\texttt{$_{link}$}}}{the tonic identification method by fragment linking~\protect\cite{senturk2013karar_ismir}}
+
 \newacronym{kNN}{\texttt{$k$}\texttt{NN}}{$k$ nearest neighbors}
 \newacronym{DTW}{\texttt{DTW}}{dynamic time warping}
 \newacronym{SDTW}{\texttt{SDTW}}{subsequence~\acrlong{DTW}}
 \newacronym{ISDTW}{\texttt{ISDTW}}{iterative~\acrlong{SDTW}}
+
+\newacronym{MAP}{\texttt{MAP}}{mean average precision}
+\newacronym{ANOVA}{\texttt{ANOVA}}{ANalysis Of VAriance}
 
 % toolboxes
 \newacronym{MORTY}{\texttt{MORTY}}{\textbf{MO}de~\textbf{R}ecognition and~\textbf{T}o\-nic~\textbf{Y}dentification Toolbox~\protect\cite{karakurt2016morty_dlfm}}
