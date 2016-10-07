@@ -142,6 +142,13 @@ pages = {11--15}
   Url                      = {http://sertansenturk.com/uploads/publications/senturk2016symbolicanalysis_fma.pdf}
 }
 
+@book{mackay2003information,
+  title={Information theory, inference and learning algorithms},
+  author={MacKay, David J. C.},
+  year={2003},
+  publisher={Cambridge University Press}
+}
+
 @InProceedings{senturk2016notemodel_smc,
   Title                    = {A score-informed computational description of svaras using a statistical model},
   Author                   = {{\c S}en\-t{\"u}rk, Sertan and Koduri, Gopala Krishna and Serra, Xavier},
@@ -1077,7 +1084,17 @@ year = {2013}
 
   Publisher                = {IEEE}
 }
-
+@inproceedings{maezawa2011alignment,
+author = {Maezawa, A and Okuno, H G and Ogata, T and Goto, M},
+booktitle = {IEEE International Conference on Acoustics, Speech and Signal Processing},
+doi = {10.1109/ICASSP.2011.5946371},
+issn = {1520-6149},
+keywords = {audio signal processing,hidden Markov models,music},
+month = may,
+pages = {185--188},
+title = {Polyphonic audio-to-score alignment based on {B}ayesian Latent Harmonic Allocation Hidden {M}arkov Model},
+year = {2011}
+}
 @InProceedings{cont2005ircam,
   Title                    = {{Training IRCAM's score follower}},
   Author                   = {Cont, Arshia and Schwarz, Diemo and Schnell, Norbert},
@@ -2057,6 +2074,14 @@ year = {1999}
   Timestamp                = {2014.04.09.18}
 }
 
+@inproceedings{Krishna2012,
+author = {Krishna, T M and Ishwar, Vignesh},
+booktitle = {2nd CompMusic Workshop},
+pages = {12--18},
+title = {Kar\d{n}{\={a}}\d{t}ik Music: Svara, Gamaka, Phraseology And R{\={a}}ga Identity},
+year = {2012}
+}
+
 @PhdThesis{holzapfel2010similarity,
   Title                    = {Similarity methods for computational ethnomusicology},
   Author                   = {Holzapfel, Andre},
@@ -2485,18 +2510,6 @@ year = {1999}
   Timestamp                = {2014.04.09.17}
 }
 
-@Article{koduri:14:intonationJNMR,
-  Title                    = {{Intonation analysis of ragas in Carnatic music}},
-  Author                   = {Koduri, G. K. and Ishwar, V. and Serr{\'a}, J. and Serra, Xavier},
-  Journal                  = {{Journal of New Music Research}},
-  Year                     = {{2014}},
-  Number                   = {1},
-  Pages                    = {73--94},
-  Volume                   = {43},
-
-  Timestamp                = {2014.04.09.17}
-}
-
 @Article{koduri2014intonation,
   Title                    = {Intonation Analysis of r{\={a}}gas in {C}arnatic Music},
   Author                   = {Koduri, Gopala Krishna and Ishwar, Vignesh and Serr\`{a}, Joan and Serra, Xavier},
@@ -2511,6 +2524,27 @@ year = {1999}
   Doi                      = {10.1080/09298215.2013.866145},
   ISSN                     = {0929-8215},
   Url                      = {http://www.tandfonline.com/doi/abs/10.1080/09298215.2013.866145}
+}
+
+@article{Krishnaswamy2003,
+abstract = {We discuss various tuning possibilities for the twelve basic musical intervals used in South Indian classical (Carnatic) music. Theoretical values proposed in certain well-known tuning systems are examined. Issues related to the intonation or tuning of the notes in Carnatic music are raised and discussed as well.},
+author = {Krishnaswamy, Arvindh},
+journal = {Audio Engineering Society Convention},
+keywords = {carnatic,sruti,tonality},
+mendeley-tags = {carnatic,sruti,tonality},
+pages = {1--14},
+title = {On the twelve basic intervals in South {I}ndian classical music},
+year = {2003}
+}
+
+@inproceedings{serra2011tuning,
+author = {Serr\`{a}, Joan and Koduri, Gopala Krishna and Miron, Marius and Serra, Xavier},
+booktitle = {International Society for Music Information Retrieval Conference},
+keywords = {Carnatic,Hindustani,Tuning},
+mendeley-tags = {Carnatic,Hindustani,Tuning},
+pages = {263--268},
+title = {Assessing the tuning of sung {I}ndian classical music},
+year = {2011}
 }
 
 @InProceedings{Koduri:11:carnaticISMIR,
@@ -3063,12 +3097,13 @@ year = {1999}
   Pages                    = {720}
 }
 
-@PhdThesis{niedermayer2011theory,
-  Title                    = {Accurate Audio-to-Score Alignment - Data Acquisition in the Context of Computational Musicology},
-  Author                   = {Niedermayer, Bernhard},
-  School                   = {Johannes Kepler Universit\"{a}t, Linz},
-  Year                     = {2012},
-  Month                    = {February}
+@phdthesis{niedermayer2012theory,
+abstract = {The objective of this thesis is to introduce enhancements to existing Audio-to-Score Alignment systems which allow for a semi-automatic annotation of note onsets within audio recordings of different performances of classical piano pieces. The main focus is put on minimizing the number of note onsets a human annotator would need to correct. If an arbitrary number of notes is notated concurrently, it is treated as one single event by current state-of-the-art systems. Consequently, such a set of notes is assigned a common onset time. As one of the main contributions of this thesis, refinement strategies which resolve this simplification are proposed. This important step allows for dealing with stylistic details such as arpeggiations and asynchronies. For the accurate extraction of an individual notes onset, a feature is introduced that represents the activation energy of a single pitch. It relies on a model-based factorization of the spectrogram and can, in contrast to filter based approaches, be tuned to the musical context of a note. Based upon these techniques, a number of applications in the domain of computational musicology are discussed. Here, a prerequisite is an annotation tool, where the user can inspect and correct the automatically computed alignments. Accurate performance transcriptions can, then, be used for visualization of performer specific characteristics or the generation of respective performance models. The evaluation of the proposed methods is performed on a corpus of classical piano music comprising more than 100,000 notes and a performance time of about four hours. An exact ground truth annotation corresponding to the audio recordings was obtained by using a computer controlled grand piano. This allows us to measure the deviation between the actual and the automatically extracted onset times. Within the scope of this thesis, a system was developed for which the median of these time deviations is below 10 milliseconds over the entire evaluation corpus.},
+author = {Niedermayer, Bernhard},
+pages = {220},
+school = {Johannes Kepler Universit\"{a}t},
+title = {Accurate Audio-to-Score Alignment -- Data Acquisition in the Context of Computational Musicology},
+year = {2012}
 }
 
 @InProceedings{ono:08:hpss,
@@ -4084,6 +4119,19 @@ year = {2012}
   Pages                    = {72--78},
 
   Timestamp                = {2014.04.09.18}
+}
+
+@article{Subramanian,
+abstract = {In this article, the author analyzes the notes and gamakas of Thodi raaga.},
+author = {Subramanian, M},
+journal = {Journal of the Sangeet Natak Akademi},
+keywords = {carnatic,case study,descriptors,gamakas},
+mendeley-tags = {carnatic,case study,descriptors,gamakas},
+number = {1},
+pages = {3--28},
+title = {Carnatic Ragam Thodi -- Pitch Analysis of Notes and Gamakams},
+volume = {XLI},
+year = {2007}
 }
 
 @InProceedings{stowell:13:birdsong,
