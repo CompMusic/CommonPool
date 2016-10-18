@@ -357,6 +357,42 @@ pages = {11--15}
   Abstract                 = {For Turkish makam music, there exist several analysis tools which generally use only the audio as the input to extract the features of the audio. This study aims at extending such approach by using additional features such as scores, editorial metadata and the knowledge about the music. In this paper, the existing algorithms for similar research, the improvements we apply to the existing audio feature extraction tools and some potential topics for audio feature extraction of Turkish makam music are explained. For the improvements, we make use of the Turkish makam music corpus and the culture specific knowledge. We also present a web-based platform, Dunya, where the output of our research, such as pitch histograms, melodic progressions and segmentation information will be used to explore a collection of audio recordings of Turkish makam music.}
 }
 
+@InProceedings{dzhambazov2016onsetLyrics_ismir,
+  Title                    = {On the use of note onsets for improved lyrics-to-audio alignment in {T}urkish makam music},
+  Author                   = {Dzhambazov, Georgi and Srinivasamurthy, Ajay and {\c S}en\-t{\"u}rk, Sertan and Serra, Xavier},
+  Booktitle                = {Proceedings of 17th International Society for Music Information Retrieval Conference (ISMIR 2016)},
+  Year                     = {2016},
+
+  Address                  = {New York, NY, USA},
+  Pages                    = {716--722},
+
+  Abstract                 = {Lyrics-to-audio alignment aims to automatically match
+given lyrics and musical audio. In this work we extend a
+state of the art approach for lyrics-to-audio alignment with
+information about note onsets. In particular, we consider
+the fact that transition to next lyrics syllable usually implies
+transition to a new musical note. To this end we formulate
+rules that guide the transition between consecutive
+phonemes when a note onset is present. These rules are incorporated
+into the transition matrix of a variable-time hidden
+Markov model (VTHMM) phonetic recognizer based
+on MFCCs. An estimated melodic contour is input to
+an automatic note transcription algorithm, from which the
+note onsets are derived. The proposed approach is evaluated
+on 12 a cappella audio recordings of Turkish Makam
+music using a phrase-level accuracy measure. Evaluation
+of the alignment is also presented on a polyphonic version
+of the dataset in order to assess how degradation in the extracted
+onsets affects performance. Results show that the
+proposed model outperforms a baseline approach unaware
+of onset transition rules. To the best of our knowledge, this
+is the one of the first approaches tackling lyrics tracking,
+which combines timbral features with a melodic feature in
+the alignment process itself.},
+  File                     = {:publications/dzhambazov2016noteonsetlyics_ismir.pdf:PDF},
+  Url                      = {http://sertansenturk.com/uploads/publications/dzhambazov2016noteonsetlyics_ismir.pdf}
+}
+
 @InProceedings{atli2014feature_atmm,
   Title                    = {Audio Feature Extraction for Exploring {T}urkish Makam Music},
   Author                   = {Atl{\i}, Hasan Sercan and Uyar, Burak and Sertan {\c S}en\-t{\"u}rk and Boz\-kurt, Bar{\i}{\c s} and Serra, Xavier},
