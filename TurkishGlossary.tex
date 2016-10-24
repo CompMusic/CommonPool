@@ -195,47 +195,61 @@
   parent=form
 }
 %
+\newglossaryentry{section}{
+  name=sec\-tion,
+  description={section XX},
+  sort=section,
+  type=TM
+}%
+%
 \newglossaryentry{teslim}{
   name=tes\-lim,
   description={Repetitive section in~\Gls{pesrev} and~\Gls{sazsemaisi}~\glspl{form}},
   sort=teslim,
-  type=TM
+  type=TM,
+  parent=section
 }%
 \newglossaryentry{hane}{
   name=ha\-ne,
   description={XX in~\Gls{pesrev} and~\Gls{sazsemaisi}~\glspl{form}},
   sort=hane,
-  type=TM
+  type=TM,
+  parent=section
 }%
 \newglossaryentry{aranagme}{
   name=a\-ra\-na\u{g}\-me,
   description={An instrumental section, which is typically performed in the start of vocal forms as an introduction},
   sort=aranagme,
-  type=TM
+  type=TM,
+  parent=section
 }%
 \newglossaryentry{nakarat}{
   name=na\-ka\-rat,
   description={Repetitive poetic line in~\Gls{sarki} and~\Gls{turku}~\glspl{form}},
   sort=teslim,
-  type=TM
+  type=TM,
+  parent=section
 }%
 \newglossaryentry{zemin}{
   name=ze\-min,
   description={First poetic line in~\Gls{sarki}~\gls{form}},
   sort=teslim,
-  type=TM
+  type=TM,
+  parent=section
 }%
 \newglossaryentry{meyan}{
   name=me\-yan,
   description={XX in~\Gls{sarki}~\gls{form}},
   sort=teslim,
-  type=TM
+  type=TM,
+  parent=section
 }%
 \newglossaryentry{terennum}{
   name=te\-ren\-n\"{u}m,
   description={an unmetered melodic improvisation of a makam},
   sort=terennuzm,
-  type=TM
+  type=TM,
+  parent=section
 }
 %
 \newglossaryentry{seyir}{
@@ -366,7 +380,7 @@
 %
 \newglossaryentry{segah}{
   name=segah,
-  description={the note indicated by the B4b1 note in the staff notation},
+  description={the note indicated by the B4\komaflat~note in the staff notation},
   sort=segah,
   type=TM,
   parent=perde
@@ -382,7 +396,7 @@
 %
 \newglossaryentry{mahur}{
   name=mahur,
-  description={the note indicated by the G5\bakiyeflat note in the staff notation},
+  description={the note indicated by the G5\bakiyeflat~note in the staff notation},
   sort=mahur,
   type=TM,
   parent=perde
