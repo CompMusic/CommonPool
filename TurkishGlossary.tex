@@ -184,11 +184,19 @@
   parent=usul
 }
 
+\newglossaryentry{vurus}{
+  name={vuruş},
+  description={Stroke in Turkish, indicating the pulses/beats XX. Each vuruş has an onomatopoeic names, which describe its strength in an~\gls{usul} cycle},
+  sort=duzm,
+  type=TM,
+}
+
 \newglossaryentry{dum}{
   name={düm},
   description={One of the onomatopoeic stroke names to refer to strong beats in an~\gls{usul} cycle},
   sort=duzm,
   type=TM,
+  parent=vurus
 }
 
 \newglossaryentry{tek}{
@@ -196,6 +204,7 @@
   description={One of the onomatopoeic stroke names to refer to weak beats in an~\gls{usul} cycle},
   sort=duzm,
   type=TM,
+  parent=vurus
 }
 
 %
@@ -573,7 +582,7 @@
 %
 \newglossaryentry{Laedri}{
   name=Lâedrî,
-  description={``Unknown'' in Arabic. Used when the creator of a work (e.g. composer or lyricist of a musical work) is not known.}
+  description={``Unknown'' in Arabic. Used when the creator of a work (e.g. composer or lyricist of a musical work) is not known.},
   sort=Laedri,
   type=TM
 }
@@ -620,7 +629,7 @@
 %
 \newglossaryentry{Şevki Bey}{
   name=Şevki Bey,
-  description={(1860 / 1891) A composer who has composed in the~\gls{sarki} form},
+%   description={(1860 / 1891) A composer, who has composed in the~\gls{sarki} form},
   sort=Szevki Bey,
   type=TM,
   parent=artists
