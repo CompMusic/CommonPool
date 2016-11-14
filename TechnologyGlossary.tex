@@ -8,7 +8,7 @@
 
 \newglossaryentry{MELODIA}{
 	name=MELODIA,
-	description = {\gls{essentia} implementation of the predominant melody extraction method proposed by~\citeA{salamon2012melody}},
+	description = The predominant melody extraction method proposed by~\citeA{salamon2012melody}. The {\gls{essentia} implementation is used throughout the thesis.},
 	sort=melodia,
 	type=Technologies
 }
@@ -94,21 +94,24 @@
 	name=Dunya-makam,
 	description = {The Ottoman-Turkish makam music corpora and related software tools created under the~\gls{CompMusic} project},
 	sort=dunyamakam,
-	type=Technologies
+	type=Technologies,
+	parent=Dunya
 }
 
 \newglossaryentry{Dunya-web}{
 	name=Dunya-web,
 	description = {The web applications, which hosts and manages the corpora and the analysis tools developed under the~\gls{CompMusic} project},
 	sort=dunyamakam,
-	type=Technologies
+	type=Technologies,
+	parent=Dunya
 }
 
 \newglossaryentry{Dunya-desktop}{
 	name=Dunya-desktop,
 	description = {The interface developed by~\protect\citeA{atli2016thesis}},
 	sort=dunyamakam,
-	type=Technologies
+	type=Technologies,
+	parent=Dunya
 }
 
 \newglossaryentry{MATLAB}{
@@ -125,25 +128,27 @@
 	type=Technologies
 }
 
+\newglossaryentry{Python}{
+	name=Python,
+	description = {A high-level, interpreted programming language},
+	sort=python,
+	type=Technologies
+}
+
 \newglossaryentry{Django}{
 	name=Django,
 	description = {A high-level Python Web framework},
 	sort=django,
-	type=Technologies
+	type=Technologies,
+	parent=Python
 }
 
 \newglossaryentry{pycompmusic}{
 	name=pycompmusic,
 	description = {A wrapper around~\gls{Dunya}~\gls{REST}~\gls{API}},
 	sort=pycompmusic,
-	type=Technologies
-}
-
-\newglossaryentry{Python}{
-	name=Python,
-	description = {A high-level, interpreted programming language},
-	sort=python,
-	type=Technologies
+	type=Technologies,
+	parent=Dunya
 }
 
 \newglossaryentry{PostgreSQL}{
@@ -157,14 +162,16 @@
 	name=TiMidity++,
 	description = {A software synthesizer for playing~\gls{MIDI} files},
 	sort=timidity,
-	type=Technologies
+	type=Technologies,
+	parent=MIDI
 }
 
 \newglossaryentry{soundfont}{
 	name=SoundFont,
 	description = {A file format and the related technology to play~\gls{MIDI} files},
 	sort=soundfont,
-	type=Technologies
+	type=Technologies,
+	parent=MIDI
 }
 
 \newglossaryentry{Mus2}{
@@ -185,5 +192,6 @@
 	name=mu2,
 	description = {The score file format of the score editor software,~\gls{Mus2}},
 	sort=mu2,
-	type=Technologies
+	type=Technologies,
+	parent=Mus2
 }

@@ -8,55 +8,90 @@
 	name=directed acyclic graph,
 	description = {Directed acyclic graph XX},
 	sort=directedacyclicgraph,
-	type=TechTerms
+	type=TechTerms,
+	parent=graph
 }
 \newglossaryentry{subgraph}{
 	name=subgraph,
 	description = {Subgraph XX},
 	sort=subgraph,
-	type=TechTerms
+	type=TechTerms,
+	parent=graph
+}
+\newglossaryentry{path}{
+	name=path,
+	description = {Path XX},
+	sort=path,
+	type=TechTerms,
+	parent=graph
 }
 \newglossaryentry{node}{
 	name=no\-de,
 	description = {Node XX},
 	sort=node,
-	type=TechTerms
+	type=TechTerms,
+	parent=graph
 }
 \newglossaryentry{edge}{
 	name=edge,
 	description = {Edge XX},
 	sort=edge,
-	type=TechTerms
+	type=TechTerms,
+	parent=graph
 }
 \newglossaryentry{clique}{
 	name=clique,
 	description = {Clique XX},
 	sort=clique,
-	type=TechTerms
+	type=TechTerms,
+	parent=graph
 }
 \newglossaryentry{maximalclique}{
 	name=maximal clique,
 	description = {XX},
 	sort=maximalclique,
-	type=TechTerms
+	type=TechTerms,
+	parent=clique
 }
 \newglossaryentry{uniqueclique}{
 	name=unique clique,
 	description = {XX},
 	sort=uniqueclique,
-	type=TechTerms
+	type=TechTerms,
+	parent=clique
 }
 \newglossaryentry{similarclique}{
 	name=similar clique,
 	description = {XX},
 	sort=similarclique,
-	type=TechTerms
+	type=TechTerms,
+	parent=clique
 }
 \newglossaryentry{hough}{
-	name=the Hough transform,
-	description = {XX},
+	name=Hough transform,
+	description = {A simple parametric line detection method.},
 	sort=houghtransform,
 	type=TechTerms
+}
+\newglossaryentry{DTW-gls}{
+	name=dynamic time warping,
+	description = {Dynamic Time Warping XX},
+	sort=dynamictimewarping,
+	type=TechTerms
+}
+\newglossaryentry{SDTW-gls}{
+	name=subsequence dynamic time warping,
+	description = {A variant of~\gls{DTW-gls}, which allows subsequence matching within the target for the given query.},
+	sort=subsequencedynamictimewarping,
+	type=TechTerms,
+	parent=DTW-gls
+}
+\newglossaryentry{ISDTW-gls}{
+	name=iterative subsequence dynamic time warping,
+	description = {A variant of~\gls{SDTW-gls}, which allows multiple subsequence matching within the target for the given query.},
+	sort=iterativesubsequencedynamictimewarping,
+	type=TechTerms,
+	parent=DTW-gls
 }
 \newglossaryentry{link}{
 	name=link,
@@ -64,27 +99,29 @@
 	sort=link,
 	type=TechTerms
 }
-
-\newglossaryentry{makamcorpus}{
-	name={CompMusic OTMM corpus},
-	description = {The corpus of Ottoman-Turkish makam music collected under the~\gls{CompMusic} project},
-	sort=compmusicotmmcorpus,
-	type=TechTerms
-}
-
-\newglossaryentry{audiocollection}{
-	name={CompMusic OTMM audio collection},
-	description = {The audio collection in the~\gls{makamcorpus}},
-	sort=compmusicotmmcorpus,
-	type=TechTerms
-}
-
 \newglossaryentry{CompMusic}{
 	name=CompMusic,
 	description = {The research project aims to advance in the automatic description of music by emphasizing cultural specificity},
 	sort=compmusic,
 	type=TechTerms
 }
+
+\newglossaryentry{makamcorpus}{
+	name={CompMusic OTMM corpus},
+	description = {The corpus of Ottoman-Turkish makam music collected under the~\gls{CompMusic} project},
+	sort=compmusicotmmcorpus,
+	type=TechTerms,
+	parent=CompMusic
+}
+
+\newglossaryentry{audiocollection}{
+	name={CompMusic OTMM audio collection},
+	description = {The audio collection in the~\gls{makamcorpus}},
+	sort=compmusicotmmcorpus,
+	type=TechTerms,
+	parent=CompMusic
+}
+
 
 %%
 %\newglossaryentry{}{
@@ -141,9 +178,9 @@
 \newacronym{SENTON2}{\texttt{SEN\--TON\texttt{$_{link}$}}}{the tonic identification method by fragment linking~\protect\cite{senturk2013karar_ismir}}
 
 \newacronym{kNN}{\texttt{$k$}\texttt{NN}}{$k$ nearest neighbors}
-\newacronym{DTW}{\texttt{DTW}}{dynamic time warping}
-\newacronym{SDTW}{\texttt{SDTW}}{subsequence~\acrlong{DTW}}
-\newacronym{ISDTW}{\texttt{ISDTW}}{iterative~\acrlong{SDTW}}
+\newacronym{DTW}{\texttt{DTW}}{\gls{DTW-gls}}
+\newacronym{SDTW}{\texttt{SDTW}}{\gls{SDTW-gls}}
+\newacronym{ISDTW}{\texttt{ISDTW}}{\gls{ISDTW-gls}}
 \newacronym{VLMM}{\texttt{VLMM}}{variable-length Markov model}
 \newacronym[plural=HHMMs, firstplural=hierarchical hidden Markov models (HHMM)]{HHMM}{\texttt{HHMM}}{hierarchical hidden Markov model}
 
