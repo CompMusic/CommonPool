@@ -41,7 +41,7 @@
   Year                     = {2011},
   Pages                    = {269--274},
   address = {Miami, FL, USA},
-  Publisher = {University of Miami},
+
 }
 
 @Conference{senturk2015dunyaMakam_ismir,
@@ -120,11 +120,8 @@ pages = {11--15}
   Author                   = {Karakurt, Altu{\u g} and {\c S}en\-t{\"u}rk, Sertan and Serra, Xavier},
   Booktitle                = {{Proceedings of the 3rd International Digital Libraries for Musicology Workshop (DLfM 2016)}},
   Year                     = {2016},
-
   Address                  = {New York, NY, USA},
   Pages                    = {9--16},
-  Publisher                = {ACM},
-
   Abstract                 = {In the general sense, mode defines the melodic framework and tonic acts as the reference tuning pitch for the melody in the performances of many music cultures. The mode and tonic information of the audio recordings is essential for many music information retrieval tasks such as automatic transcription, tuning analysis and music similarity and automatic description of digital music libraries applied to these cultures. In this paper we present MORTY, an open source toolbox for mode recognition and tonic identification. The toolbox implements a generalized variant of two state-of-the-art methods based on pitch distribution analysis. The algorithms are designed in a generic manner such that they can be easily optimized according to the culture-specific aspects of the studied music tradition. We test the generalized methodology systematically on the largest mode recognition dataset curated for Ottoman-Turkish makam music so far, which is composed of 1000 recordings in 50 modes. We obtained 95.8\%, 71.8\% and 63.6\% accuracy in tonic identification, mode recognition and joint estimation of the mode and tonic tasks, respectively. We additionally present recent experiments on Carnatic and Hindustani music in comparison with several methodologies recently proposed for raga/raag recognition. We believe that our toolbox would be used as a benchmark for future methodologies proposed for mode recognition and tonic identification, especially for music traditions in which these computational tasks have not been addressed yet.},
   Acmid                    = {2970054},
   Doi                      = {10.1145/2970044.2970054},
@@ -138,11 +135,8 @@ pages = {11--15}
   Author                   = {{\c S}en\-t{\"u}rk, Sertan and Serra, Xavier},
   Booktitle                = {{Proceedings of 6th International Workshop on Folk Music Analysis (FMA 2016)}},
   Year                     = {2016},
-
   Address                  = {Dublin, Ireland},
   Pages                    = {39--46},
-  Publisher                = {Dublin Institute of Technology},
-
   Abstract                 = {From a computational perspective, structural analysis of Ottoman-Turkish makam music (OTMM) is a research topic that has not been addressed thoroughly. In this paper we propose a method, which processes machine-readable music scores of OTMM to extract and semiotically describe the melodic and lyrical organization of the music piece automatically using basic string similarity and graph analysis techniques. The proposed method is used to identify around 50000 phrases in 1300 music scores and 21500 sections in 1770 scores, respectively. The obtained information may be useful for relevant research in music education and musicology, and it has already been used to aid several computational tasks such as music score content validation, digital music engraving and audio-score alignment.},
   File                     = {senturk2016symbolicanalysis_fma.pdf:publications/senturk2016symbolicanalysis_fma.pdf:PDF;senturk2016symbolicanalysis_fma.pptx:presentations/senturk2016symbolicanalysis_fma.pptx:PowerPoint 2007+},
 }
@@ -161,7 +155,7 @@ pages = {11--15}
   Year                     = {2016},
   Pages                    = {427-433},
   Address                  = {Hamburg, Germany},
-  Publisher                = {Zentrum f{\"u}r Mikrotonale Musik und Multimediale Komposition (ZM4) Hochschule f{\"u}r Musik und Theater},
+
   Abstract                 = {Musical notes are often modeled as a discrete sequence of points on a frequency spectrum with possibly different interval sizes such as just-intonation. Computational descriptions abstracting the pitch content in audio music recordings have used this model, with reasonable success in several information retrieval tasks. In this paper, we argue that this model restricts a deeper understanding of the pitch content. First, we discuss a statistical model of musical notes which widens the scope of the current one and opens up possibilities to create new ways to describe the pitch content. Then we present a computational approach that partially aligns the audio recording with its music score in a hierarchical manner first at metrical cycle-level and then at note-level, to describe the pitch content using this model. It is evaluated extrinsically in a classification test using a public dataset and the result is shown to be significantly better compared to a state-of-the-art approach. Further, similar results obtained on a more challenging dataset which we have put together, reinforces that our approach outperforms the other.},
   File                     = {:publications/senturk2016notemodel_smc.pdf:PDF},
 }
@@ -173,7 +167,6 @@ pages = {11--15}
   Year                     = {2016},
   Pages                    = {434-441},
   Address                  = {Hamburg, Germany},
-  Publisher                = {Zentrum f{\"u}r Mikrotonale Musik und Multimediale Komposition (ZM4) Hochschule f{\"u}r Musik und Theater},
   Abstract                 = {The composition information of audio recordings is highly valuable for many tasks such as automatic music description and music discovery. Given a music collection, two typical scenarios are retrieving the composition(s) performed in an audio recording and retrieving the audio recording(s), where a composition is performed. We present a composition identification methodology for these two tasks, which makes use of music scores. Our methodology first attempts to align a fragment of the music score of a composition with an audio recording. Next, it computes a similarity from the best obtained alignment. True audio-score pair emits a high similarity value. We repeat this procedure between all audio recordings and music scores, and filter the true pairs by a simple approach using logistic regression. The methodology is specialized according to the cultural-specific aspects of Ottoman-Turkish makam music (OTMM), achieving 0.96 and 0.95 mean average precision (MAP) for composition retrieval and performance retrieval tasks, respectively. We hope that our method would be useful in creating semantically linked music corpora for cultural heritage and preservation, semantic web applications and musicological studies.},
   File                     = {:publications/senturk2016compositionindetification_smc.pdf:PDF},
 }
@@ -200,11 +193,8 @@ pages = {11--15}
   Author                   = {{\c S}en\-t{\"u}rk, Sertan and Gulati, Sankalp and Serra, Xavier},
   Booktitle                = {{Proceedings of 4th International Workshop on Folk Music Analysis (FMA 2014)}},
   Year                     = {2014},
-
   Address                  = {Istanbul, Turkey},
   Pages                    = {57--60},
-  Publisher                = {Computer Engineering Department, Bo{\u{g}}azi{\c{c}}i University},
-
   Abstract                 = {Audio-score alignment is a multi-modal task, which facilitates many related tasks such as intonation analysis, structure analysis and automatic accompaniment. In this paper, we present a audio-score alignment methodology for the classical Ottoman-{T}urkish music tradition. Given a music score of a composition with structure (section) information and an audio performance of the same composition, our method first extracts a synthetic prominent pitch per section from the note values and durations in the score and a audio prominent pitch from the audio recording. Then it identifies the performed tonic frequency by using melodic information in the repetitive section in the score. Next it links each section with the time intervals where each section performed in the audio recording (i.e. structure level alignment) by comparing the extracted pitch features. Finally the score and the audio recordings are aligned in the note-level. For the initial experiments we chose DTW, a standard technique used in audio-score alignment, to show how well the state-of-the-art performs in makam musics. The results show that our method is able to handle the tonic transpositions and the structural differences with ease, however improvements, which address the characteristics of the music scores and the performances of makam musics, are needed in our note-level alignment methodology. To the best knowledge this paper presents the first audio-score alignment method proposed for makam musics.},
 }
 
@@ -215,7 +205,6 @@ pages = {11--15}
 	address = {Maynooth, Ireland},
 	abstract = {In this work we propose how to modify a standard scheme for text-to-speech alignment for the alignment of lyrics and singing voice. To this end we model the duration of phonemes specific for the case of singing. We rely on a duration-explicit hidden Markov model (DHMM) phonetic recognizer based on mel frequency cepstral coefficients (MFCCs), which are extracted in a way robust to background instrumental sounds. The proposed approach is tested on polyphonic audio from the classical Turkish music tradition in two settings: with and without modeling phoneme durations. Phoneme durations are inferred from sheet music. In order to assess the impact of the polyphonic setting, alignment is evaluated as well on an acapella dataset, compiled especially for this study. We show that the explicit modeling of phoneme durations improves alignment accuracy by absolute 10 percent on the level of lyrics lines (phrases) and performs on par with state-of-the-art aligners for other languages.},
 	author = {Dzhambazov, Georgi and Serra, Xavier},
-	publisher = {Maynooth University}
 }
 
 @Article{senturk2014sectionLinking,
@@ -226,6 +215,7 @@ pages = {11--15}
   Number                   = {1},
   Pages                    = {34--52},
   Volume                   = {43},
+  Publisher                = {Taylor & Francis}
 }
 
 @InProceedings{abdallah:03:probability,
@@ -288,8 +278,6 @@ pages = {11--15}
   Year                     = {2015},
   Address                  = {Paris, France},
   Pages                    = {119--122},
-  Publisher                = {University Pierre et Marie Curie},
-
   Abstract                 = {Karar is the final tone in the {T}urkish makam music performances. The karar frequency, hence the concert pitch varies among performances due to the existence of many diapasons in {T}urkish makam music, instead of a single standard one. Correct estimation of the karar frequency is critical for many computational tasks such as tuning analysis, audio-score alignment and automatic transcription. We present a new karar frequency identification method that is based on detecting the last note in the recording and estimating its frequency. The method is applied on two large datasets of {T}urkish makam music recordings and shown to outperform the state-of-the-art.},
 }
 
@@ -329,8 +317,6 @@ pages = {11--15}
 
   Address                  = {Istanbul, Turkey},
   Pages                    = {61--64},
-  Publisher                = {Computer Engineering Department, Bo{\u{g}}azi{\c{c}}i University},
-
   Abstract                 = {We apply a lyrics-to-audio alignment state-of-the-art approach to polyphonic pieces from classical Turkish repertoire. A phonetic recognizer is employed, whereby each phoneme is assigned a hidden Markov model (HMM). Initially trained on speech, the models are adapted on singing voice to match the acoustic characteristics of the test dataset. Being the first study on lyrics-to-audio alignment applied on Turkish music, it could serve as a baseline for singing material with similar musical characteristics. As part of this work a dataset of recordings from the classical music tradition is compiled. Experiments, conducted separately for male and female singers, show that female singing is aligned more accurately.},
   File                     = {:publications/dzhambazov2014lyrics_fma.pdf:PDF},
   Keywords                 = {Turkish,Viterbi,alignment,hmm,lyrics,phonemes,singing voice},
@@ -343,8 +329,6 @@ pages = {11--15}
   Year                     = {2014},
 
   Address                  = {Ankara, Turkey},
-  Organization             = {Bilkent University},
-  Publisher                = {Bilkent University},
   Pages                    = {142–-153},
   File                     = {:publications/atli2014makamFeature_atmm.pdf:PDF},
 }
@@ -388,7 +372,6 @@ pages = {11--15}
   year = {2013},
   pages = {355--360},
   Address = {Curitiba, Brazil},
-    publisher = {Pontifícia Universidade Católica do Paraná}
 }
 
 @inproceedings{muller2008path,
@@ -534,7 +517,7 @@ address = "San Jose, CA, USA",
   Pages                    = {591-596},
 
   Timestamp                = {2014.04.09.18},
-  Publisher = {University of Miami},
+
 }
 
 @Book{bhatkhande:90:book,
@@ -573,7 +556,7 @@ address = "San Jose, CA, USA",
   Address                  = {Curitiba, Brazil},
   Year                     = {2013},
   Pages                    = {493--498},
-    publisher = {Pontifícia Universidade Católica do Paraná}
+
 }
 
 @Article{bozkurt2014phraseSegmentation_jnmr,
@@ -809,7 +792,7 @@ address = "San Jose, CA, USA",
   Year                     = {2007},
   Pages                    = {431--436},
   address = "Vienna, Austria",
-  publisher = {Austrian Computer Society}
+
 }
 
 
@@ -1023,7 +1006,7 @@ address = {Prague, Czech Republic}
   Year                     = {2005},
   Pages                    = {492--497},
   Address                  = {London, United Kingdom},
-  publisher = {Queen Mary, University of London}
+
 }
 
 @Article{doucet:09:tutorial,
@@ -1050,7 +1033,7 @@ address = {Prague, Czech Republic}
   Year                     = {2007},
   Pages                    = {357--360},
   address = {Vienna, Austria},
-  publisher = {Austrian Computer Society}
+
 }
 
 @Article{dubnov2003using,
@@ -1706,10 +1689,8 @@ year = {2010}
   Author                   = {Arthur, David and Vassilvitskii, Sergei},
   Booktitle                = {{Proceedings of the 18th Annual ACM-SIAM Symposium on Discrete Algorithms}},
   Year                     = {2007},
-  Organization             = {Society for Industrial and Applied Mathematics},
   Pages                    = {1027--1035},
   Address                  = {New Orleans, LA, USA},
-  publisher = {Society for Industrial and Applied Mathematics}
 }
 
 @InProceedings{hockman:12:downbeat,
@@ -1747,7 +1728,7 @@ Address                  = {Istanbul, Turkey}
     pages = {607--612},
     address = {Curitiba, Brazil},
     author = {Gasser, Maarten and Grachten, Martin and Arzt, Andreas and Widmer, Gerhard},
-    publisher = {Pontifícia Universidade Católica do Paraná}
+
 }
 
 @Conference{holzapfel2015linking_icassp,
@@ -1757,7 +1738,6 @@ Address                  = {Istanbul, Turkey}
   Year                     = {2015},
   Address                  = {Brisbane, Australia},
   Pages                    = {141--145},
-  Publisher                = {{IEEE}},
   Abstract                 = {Section linking aims at relating structural units in the notation of a piece of music to their occurrences in a performance of the piece. In this paper, we address this task by presenting a score-informed hierarchical Hidden Markov Model (HHMM) for modeling musical audio signals on the temporal level of sections present in a composition, where the main idea is to explicitly model the long range and hierarchical structure of music signals. So far, approaches based on HHMM or similar methods were mainly developed for a note-to-note alignment, i.e. an alignment based on shorter temporal units than sections. Such approaches, however, are conceptually problematic when the performances differ substantially from the reference score due to interpretation and improvisation, a very common phenomenon, for instance, in {T}urkish makam music. In addition to having low computational complexity compared to note-to-note alignment and achieving a transparent and elegant model, the experimental results show that our method outperforms a previously presented approach on a {T}urkish makam music corpus.},
 }
 
@@ -2212,7 +2192,7 @@ pages = {263--268},
 title = {Assessing the tuning of sung {I}ndian classical music},
 year = {2011},
 address = {Miami, FL, USA},
-  Publisher = {University of Miami},
+
 }
 
 @InProceedings{Koduri:11:carnaticISMIR,
@@ -2225,7 +2205,7 @@ address = {Miami, FL, USA},
   Pages                    = {263 -- 268},
 
   Timestamp                = {2014.04.09.18},
-  Publisher = {University of Miami},
+
 }
 
 @Conference{koduri:13:ontoMelody,
@@ -2400,8 +2380,8 @@ address = {Miami, FL, USA},
 
 @Article{levenshtein1966binary,
   Title                    = {Binary codes capable of correcting deletions, insertions, and reversals},
-  Author                   = {Levenshtein, Vladimir I},
-  Booktitle                = {{Soviet Physics Doklady}},
+  Author                   = {Levenshtein, Vladimir Iosifovich},
+  Journal                = {{Soviet Physics Doklady}},
   Year                     = {1966},
   Number                   = {8},
   Pages                    = {707--710},
@@ -2442,11 +2422,10 @@ address = {Miami, FL, USA},
 @InProceedings{lin2003symbolic,
   Title                    = {A symbolic representation of time series, with implications for streaming algorithms},
   Author                   = {Lin, Jessica and Keogh, Eamonn and Lonardi, Stefano and Chiu, Bill},
-  Booktitle                = {{Proceedings of the 8th ACM SIGMOD Workshop on Research Issues in Data Mining and Knowledge Discovery}},
+  Booktitle                = {{Proceedings of the 8th ACM SIGMOD Workshop on Research Issues in Data Mining and Knowledge Discovery (DMKD'03)}},
   Year                     = {2003},
   Address                  = {New York, NY, USA},
   Pages                    = {2--11},
-  Publisher                = {ACM},
   Series                   = {DMKD '03},
   Acmid                    = {882086},
   Doi                      = {10.1145/882082.882086},
@@ -2501,7 +2480,7 @@ address = {Miami, FL, USA},
   Year                     = {2007},
   Pages                    = {47--50},
   address = {Vienna, Austria},
-  publisher = {Austrian Computer Society}
+
 }
 
 @Article{muller:11:intro,
@@ -2543,7 +2522,7 @@ address = {Miami, FL, USA},
   Pages                    = {288--295},
   Volume                   = {2005},
   address = {London, United Kingdom},
-  publisher = {Queen Mary, University of London}
+
 }
 
 @Article{mann:47:Utest,
@@ -2965,7 +2944,7 @@ Knees, P.},
   Booktitle                = {{Proceedings of 14th International Society for Music Information Retrieval Conference (ISMIR 2013)}},
   Year                     = {2013},
   Address                  = {Curitiba, Brazil},
-  publisher = {Pontifícia Universidade Católica do Paraná}
+
 }
 
 @InProceedings{rabiner:89:tutorial,
@@ -3047,13 +3026,13 @@ and Shashidhar G. Koolagudi",
 	address = "Miami, FL, USA",
 	pages = "275--280",
 	booktitle = "{Proceedings of the 12th International Society for Music Information Retrieval Conference (ISMIR 2011)}",
-  Publisher = {University of Miami},
+
 }
 
 @PhdThesis{raimond:08:phd,
   Title                    = {{A Distributed Music Information System}},
   Author                   = {Raimond, Yves},
-  School                   = {University of London},
+  School                   = {Queen Mary, University of London},
   Year                     = {2008},
 
   __markedentry            = {[Ajay:]},
@@ -3071,7 +3050,7 @@ and Shashidhar G. Koolagudi",
   Timestamp                = {2014.04.09.17},
   address = "Vienna, Austria",
   pages = "417--422",
-  publisher = {Austrian Computer Society}
+
 }
 
 @Article{raman:34:drums,
@@ -3195,7 +3174,7 @@ the collection by identifying and showing other information that is related to t
 showing the relationships between them or by using culturally relevant similarity measures. The basic architecture
 and the design principles developed are reusable for other music collections with different characteristics.},
 	author = {Porter, Alastair and Sordo, Mohamed and Serra, Xavier},
-    publisher = {Pontifícia Universidade Católica do Paraná}
+
 }
 
 @conference {porter2014dunya_dlfm,
@@ -3244,7 +3223,7 @@ released under an open-source licence.},
 	Publisher                = {Pontif\'{\i}cia Universidade Cat\'{o}lica do Paran\'{a}},
 	Pages                    = {35--40},
 	Address = {Curitiba, Brazil},
-    publisher = {Pontifícia Universidade Católica do Paraná}
+
 }
 
 
@@ -3261,7 +3240,7 @@ released under an open-source licence.},
   Abstract                 = {Tonic is a fundamental concept in many music traditions and its automatic identification should be relevant for establishing the reference pitch when we analyse the melodic content of the music. In this paper, we present two methodologies for the identification of the tonic in audio recordings of makam music of Turkey, both taking advantage of some score information. First, we compute a prominent pitch and a audio kernel-density pitch class distribution (KPCD) from the audio recording. The peaks in the KPCD are selected as tonic candidates. The first method computes a score KPCD from the monophonic melody extracted from the score. Then, the audio KPCD is circular-shifted with respect to each tonic candidate and compared with the score KPCD. The best matching shift indicates the estimated tonic. The second method extracts the mono- phonic melody of the most repetitive section of the score. Normalising the audio prominent pitch with respect to each tonic candidate, the method attempts to link the repetitive structural element given in the score with the respective time-intervals in the audio recording. The result producing the most confident links marks the estimated tonic. We have tested the methods on a dataset of makam music of Turkey, achieving a very high accuracy (94.9\%) with the first method, and almost perfect identification (99.6\%) with the second method. We conclude that score informed tonic identification can be a useful first step in the computational analysis (e.g. expressive analysis, intonation analysis, audio-score alignment) of music collections involving melody-dominant content.},
   File                     = {:presentations/senturk2013karar_ismir_presentation.pdf:PDF;:publications/senturk2013karar_ismir.pdf:PDF},
   ISBN                     = {978-0-615-90065-0},
-    publisher = {Pontifícia Universidade Católica do Paraná}
+
 }
 
 @InProceedings{gulati2016ragarecognition_ismir,
@@ -3320,7 +3299,7 @@ year = {2012}
   Year                     = {2005},
   Pages                    = {664--665},
   address = {London, United Kingdom},
-  publisher = {Queen Mary, University of London}
+
 }
 
 @InProceedings{sarala:13:concertseg,
@@ -3382,8 +3361,6 @@ year = {2012}
 	title = {Creating Research Corpora for the Computational Study of Music: The Case of the {CompMusic} Project},
 	booktitle = {{Proceedings of {AES} 53rd International Conference on Semantic Audio}},
 	year = {2014},
-	publisher = {AES},
-	organization = {AES},
 	address = {London, United Kingdom},
 	author = {Serra, Xavier}
 }
@@ -3413,7 +3390,7 @@ year = {2012}
   Year                     = {2011},
   Pages                    = {151-156},
   Address                  = {Miami, FL, USA},
-  Publisher = {University of Miami},
+
 }
 
 @PhdThesis{serra:89:phdthesis,
@@ -3520,7 +3497,7 @@ year = {2012}
 
   Address                  = {Istanbul, Turkey},
   Pages                    = {20--24},
-  Publisher                = {Universitat Pompeu Fabra},
+
 
   ISBN                     = {978-84-695-4958-2},
 }
@@ -3795,7 +3772,7 @@ year = {2007}
 
   Owner                    = {Ajay},
   Timestamp                = {2016.02.26},
-  Publisher = {University of Miami},
+
 }
 
 @Article{tomita2006clique,
@@ -3868,7 +3845,7 @@ year = {2007}
 
   Owner                    = {Ajay},
   Timestamp                = {2016.01.04},
-  publisher = {Queen Mary, University of London}
+
 }
 
 @Article{tzanetakis2007computational,
@@ -4052,9 +4029,7 @@ year = {2007}
 
   address = {Miami, FL, USA},
   Pages                    = {191--196},
-  Publisher = {University of Miami},
   Timestamp                = {2014.04.09.18},
-  Publisher = {University of Miami},
 }
 
 @PhdThesis{yarman2008tuning,
