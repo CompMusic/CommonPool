@@ -1,68 +1,68 @@
 ﻿\newglossaryentry{graph}{
 	name=graph,
-	description = {Graph XX},
+	description = {A mathematical structure depicting objects (\glspl{node}) where related objects are connected (by \glspl{edge})},
 	sort=graph,
 	type=TechTerms
 }
 \newglossaryentry{DAG-gls}{
 	name=directed acyclic graph,
-	description = {Directed acyclic graph XX},
+	description = {A \gls{graph} with directed \glspl{edge} without any directed cycles},
 	sort=directedacyclicgraph,
 	type=TechTerms,
 	parent=graph
 }
 \newglossaryentry{subgraph}{
 	name=subgraph,
-	description = {Subgraph XX},
+	description = {A \gls{graph} formed from a subset of the \glspl{node} and \glspl{edge} of another \gls{graph}.},
 	sort=subgraph,
 	type=TechTerms,
 	parent=graph
 }
 \newglossaryentry{path}{
 	name=path,
-	description = {Path XX},
+	description = {A sequence of adjacent \glspl{node} and connecting \glspl{edge}},
 	sort=path,
 	type=TechTerms,
 	parent=graph
 }
 \newglossaryentry{node}{
 	name=no\-de,
-	description = {Node XX},
+	description = {A basic unit of \glspl{graph}, which represents an ``object.''},
 	sort=node,
 	type=TechTerms,
 	parent=graph
 }
 \newglossaryentry{edge}{
 	name=edge,
-	description = {Edge XX},
+	description = {A basic unit of \glspl{graph}, which shows the relation between two (related) \glspl{node}},
 	sort=edge,
 	type=TechTerms,
 	parent=graph
 }
 \newglossaryentry{clique}{
 	name=clique,
-	description = {Clique XX},
+	description = {A (sub)graph with its every two \gls{node} being adjacent (connected with an \gls{edge})},
 	sort=clique,
 	type=TechTerms,
 	parent=graph
 }
 \newglossaryentry{maximalclique}{
 	name=maximal clique,
-	description = {XX},
+	description = {A \gls{clique}, which is a subclique of only itself},
 	sort=maximalclique,
 	type=TechTerms,
 	parent=clique
 }
 \newglossaryentry{uniqueclique}{
 	name=unique clique,
-	description = {XX},
+	description = {(Defined in the text) A \gls{maximalclique}, where each \gls{node} (a structure element) is identical with each other (i.e. the similarity, hence \gls{edge} weight equals to $1$)},
 	sort=uniqueclique,
 	type=TechTerms,
 	parent=clique
 }
 \newglossaryentry{similarclique}{
 	name=similar clique,
-	description = {XX},
+	description = {(Defined in the text) A \gls{maximalclique} with at least one \gls{node} (a structure element) different from the others (i.e. the similarity, hence \gls{edge} weight is not equal to $1$.},
 	sort=similarclique,
 	type=TechTerms,
 	parent=clique
@@ -75,7 +75,7 @@
 }
 \newglossaryentry{DTW-gls}{
 	name=dynamic time warping,
-	description = {Dynamic Time Warping XX},
+	description = {A dynamic programming algorithm to determine the similarity between two sequences. It can be back-tracked to align the sequences in time.},
 	sort=dynamictimewarping,
 	type=TechTerms
 }
