@@ -5,7 +5,7 @@
 @Book{ozkan1984musiki,
   Title                    = {T\"{u}rk m\^{u}sik{\i}si nazariyat{\i} ve us\^{u}lleri: {K}ud\"{u}m velveleleri},
   Author                   = {\"{O}zkan, \.{I}small Hakk{\i}},
-  Publisher                = {\"{O}t\"{u}ken Ne\c{s}riyat (in {T}urkish)},
+  Publisher                = {\"{O}t\"{u}ken Ne\c{s}riyat},
   Year                     = {2006}
 }
 
@@ -14,14 +14,18 @@
   Title                    = {Computational Modeling of Improvisation in {T}urkish Folk Music using Variable-length {M}arkov Models},
   Author                   = {{\c S}ent{\" u}rk, Sertan},
   School                   = {Georgia Institute of Technology},
-  Year                     = {2011}
+  Year                     = {2011},
+    Type                     = {{Masters's thesis}},
+  Address = {Atlanta, GA, USA}
 }
 
 @MastersThesis{atli2016thesis,
-  Title                    = {T\"{u}rk Makam M\"{u}zi\u{g}i'nin Ezgisel Boyutuna Y\"{o}nelik \.{I}nteraktif E\u{g}itim Program{\i}},
+  Title                    = {T\"{u}rk {M}akam {M}\"{u}zi\u{g}i'nin Ezgisel Boyutuna Y\"{o}nelik \.Interaktif E\u{g}itim Program{\i}},
   Author                   = {Atl{{\i}}, Hasan Sercan},
   School                   = {Bah\c{c}e\c{s}ehir \"{U}niversitesi},
-  Year                     = {2016}
+  Year                     = {2016},
+    Type                     = {{Master's thesis}},
+  Address = {Istanbul, Turkey}
 }
 
 @article{tzanetakis2000marsyas,
@@ -35,13 +39,14 @@
   publisher={Cambridge University Press}
 }
 
-@article{tzanetakis2007marsyas,
+@inbook{tzanetakis2008marsyas,
   title={Marsyas-0.2: a case study in implementing music information retrieval systems},
-  author={Tzanetakis, George and Lemstrom, K},
-  journal={Intelligent Music Information Systems. IGI Global},
-  volume={14},
-  year={2007},
-  publisher={Hershey: IGI Global}
+  author={Tzanetakis, George},
+  booktitle={{Intelligent Music Information Systems: Tools and Methodologies}},
+  year={2008},
+  publisher={Hershey: IGI Global},
+  pages={31--49},
+  doi={10.4018/978-1-59904-663-1.ch002},
 }
 
 @inproceedings{csimcsek2016fundamental,
@@ -127,6 +132,16 @@ pages = {11--15}
   address = {Firenze, Italy},
 }
 
+@PhdThesis{raimond2008thesis,
+  Title                    = {A Distributed Music Information System},
+  Author                   = {Raimond, Yves},
+  School                   = {Queen Mary, University of London},
+  Year                     = {2008},
+  address = {London, United Kingdom},
+  Type                     = {{Doctoral dissertation}},
+}
+
+
 @inproceedings{six2014tarsosdsp,
   author      = {Joren Six and Olmo Cornelis and Marc Leman},
   title       = {{TarsosDSP, a Real-Time Audio Processing Framework in Java}},
@@ -139,18 +154,22 @@ pages = {11--15}
   title={{Automatic music classification with jMIR}},
   author={McKay, Cory},
   year={2010},
-  school={McGill University}
+  school={McGill University},
+  address = {Montréal, Canada},
+  Type                     = {{Doctoral dissertation}},
 }
 
 @phdthesis{humphrey2016deeplearning,
   title={{An exploration of deep learning in content-based music informatics}},
   author={Humphrey, Eric J.},
   year={2016},
-  school={New York University}
+  school={New York University},
+  address = {New York, NY, USA},
+  Type                     = {{Doctoral dissertation}},
 }
 
 @conference {srinivasamurty2014corpus,
-	title = {Corpora for Music Information Research in Indian Art Music},
+	title = {Corpora for Music Information Research in {I}ndian Art Music},
 	booktitle = {{Proceedings of Joint 42nd International Computer Music Conference and 11th Sound and Music Computing Conference (ICMC|SMC|2014)}},
 	year = {2014},
 	pages = {1029-1036},
@@ -160,8 +179,8 @@ pages = {11--15}
 }
 
 @conference {caro2014corpus,
-	title = {Creating a Corpus of Jingju (Beijing Opera) Music and Possibilities for Melodic Analysis},
-	booktitle = {15th International Society for Music Information Retrieval Conference},
+	title = {Creating a Corpus of {J}ingju ({B}eijing Opera) Music and Possibilities for Melodic Analysis},
+	booktitle = {{Proceedings of the 15th International Society for Music Information Retrieval Conference (ISMIR 2014)}},
 	year = {2014},
 	pages = {313-318},
 	address = {Taipei, Taiwan},
@@ -186,7 +205,6 @@ pages = {11--15}
  Address                  = {London, United Kingdom},
  pages = {1--3},
  numpages = {3},
- url = {http://doi.acm.org/10.1145/2660168.2660182},
  doi = {10.1145/2660168.2660182},
  acmid = {2660182},
 }
@@ -202,32 +220,20 @@ pages = {11--15}
  pages = {10:1--10:21},
  articleno = {10},
  numpages = {21},
- url = {http://doi.acm.org/10.1145/2875428},
  doi = {10.1145/2875428},
  acmid = {2875428},
  publisher = {ACM},
  address = {New York, NY, USA},
 } 
 
-@misc{mcfee2015librosa,
-  author       = {Brian McFee and
-                  Matt McVicar and
-                  Colin Raffel and
-                  Dawen Liang and
-                  Oriol Nieto and
-                  Eric Battenberg and
-                  Josh Moore and
-                  Dan Ellis and
-                  Ryuichi Yamamoto and
-                  Rachel Bittner and
-                  Douglas Repetto and
-                  Petr Viktorin and
-                  João Felipe Santos and
-                  Adrian Holovaty},
-  title        = {librosa: 0.4.1},
-  year         = 2015,
-  doi          = {10.5281/zenodo.32193},
-  url          = {https://doi.org/10.5281/zenodo.32193}
+
+@InProceedings{mcfee2015librosa,
+  author    = {{M}c{F}ee, {B}rian and {R}affel, {C}olin and {L}iang, {D}awen and {E}llis, {D}aniel {P}.{W}. and {M}c{V}icar, {M}att and {B}attenberg, {E}ric and {N}ieto, {O}riol},
+  title     = {librosa: {A}udio and {M}usic {S}ignal {A}nalysis in {P}ython},
+  booktitle = {{P}roceedings of the 14th {P}ython in {S}cience {C}onference {(SciPy2015)}},
+  pages     = {18--25},
+  year      = {2015},
+  address = {Austin, TX, USA},
 }
 
 @article{tzanetakis2003histogram,
@@ -241,37 +247,33 @@ year = {2003}
 }
 
 @Inbook{tekin2005following,
-author="Tekin, Mevlüt Evren and Anagnostopoulou, Christina and Tomita, Yo",
-title="Towards an Intelligent Score Following System: Handling of Mistakes and Jumps Encountered During Piano Practicing",
-bookTitle="Computer Music Modeling and Retrieval: Second International Symposium, CMMR 2004, Esbjerg, Denmark, May 26-29, 2004. Revised Papers",
-year="2005",
-publisher="Springer Berlin Heidelberg",
-address="Berlin, Heidelberg",
-pages="211--219",
-isbn="978-3-540-31807-1",
-doi="10.1007/978-3-540-31807-1_16",
+author={Tekin, Mevlüt Evren and Anagnostopoulou, Christina and Tomita, Yo},
+title={Towards an Intelligent Score Following System: Handling of Mistakes and Jumps Encountered During Piano Practicing},
+booktitle={{Computer Music Modeling and Retrieval: Second International Symposium ({CMMR 2004}). {R}evised Papers}},
+year={2005},
+publisher={Springer Berlin Heidelberg},
+address={Berlin, Germany},
+pages={211--219},
+isbn={978-3-540-31807-1},
+doi={10.1007/978-3-540-31807-1_16},
 }
 
+
 @inproceedings{bock2016madmom,
- author = {B\"{o}ck, Sebastian and Korzeniowski, Filip and Schl\"{u}ter, Jan and Krebs, Florian and Widmer, Gerhard},
- title = {Madmom: A New Python Audio and Music Signal Processing Library},
- booktitle = {{Proceedings of the 2016 ACM on Multimedia Conference}},
- series = {MM '16},
- year = {2016},
- isbn = {978-1-4503-3603-1},
- location = {Amsterdam, The Netherlands},
- pages = {1174--1178},
- numpages = {5},
- doi = {10.1145/2964284.2973795},
- acmid = {2973795},
- address = {New York, NY, USA},
- keywords = {audio analysis, machine learning, music information retrieval, open source, python, signal processing},
-} 
+   Title = {{madmom: a new Python Audio and Music Signal Processing Library}},
+   Author = {B{\"o}ck, Sebastian and Korzeniowski, Filip and Schl{\"u}ter, Jan and Krebs, Florian and Widmer, Gerhard},
+   Booktitle = {{Proceedings of the 24th {ACM} International Conference on Multimedia {(ACMMM2016)}}},
+   Month = {10},
+   Year = {2016},
+   Pages = {1174--1178},
+   Address = {Amsterdam, The Netherlands},
+   Doi = {10.1145/2964284.2973795}
+}
 
 @inproceedings{cevikoglu2007makam,
  author = {Çevikoğlu, Timuçin},
- title = {Klasik Türk Müziğinin bugünkü sorunları},
- booktitle = {{Proceedings of International Congress of Asian and North African Studies (Icanas 38')}},
+ title = {Klasik {T}ürk Müziğinin bugünkü sorunları},
+ booktitle = {{Proceedings of 38th International Congress of Asian and North African Studies (ICANAS 2007)}},
  year = {2007},
  address = {Ankara, Turkey},
 } 
@@ -450,11 +452,12 @@ doi="10.1007/978-3-540-31807-1_16",
 
 @conference {arzt2014transposition,
 	title = {Tempo- and Transposition-invariant Identification of Piece and Score Position},
-	booktitle = {Proceedings of the International Society for Music Information Retrieval Conference (ISMIR)},
+	booktitle = {{Proceedings of the 15th International Society for Music Information Retrieval Conference (ISMIR 2014)}},
 	year = {2014},
-	author = {Arzt, Andreas and Widmer, Gerhard and Sonnleitner, Reinhard}
+	pages={549--554},
+	author = {Arzt, Andreas and Widmer, Gerhard and Sonnleitner, Reinhard},
+	Address = {Taipei, Taiwan},
 }
-
 
 @Conference{atli2015tonic_fma,
   Title                    = {A method for tonic frequency identification of {T}urkish makam music recordings},
@@ -666,31 +669,6 @@ address = "San Jose, CA, USA",
   Volume                   = {138}
 }
 
-@Article{berners:01:semantic,
-  Title                    = {{The semantic web}},
-  Author                   = {Berners-Lee, Tim and Hendler, James and Lassila, Ora},
-  Journal                  = {{Scientific American}},
-  Year                     = {2001},
-  Number                   = {5},
-  Pages                    = {34--43},
-  Volume                   = {284},
-
-  __markedentry            = {[Ajay:]},
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04}
-}
-
-@Book{beronja:08:tabla,
-  Title                    = {{The Art of the Indian tabla}},
-  Author                   = {Beronja, S.},
-  Publisher                = {{Rupa and Co. New Delhi}},
-  Year                     = {2008},
-
-  ISBN                     = {9788129114310},
-  Language                 = {English},
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04}
-}
 
 @phdthesis {srinivasamurty2016thesis,
 	title = {A Data-driven Bayesian Approach to Automatic Rhythm Analysis of {I}ndian Art Music},
@@ -698,7 +676,8 @@ address = "San Jose, CA, USA",
 	pages = {332},
 	school = {Universitat Pompeu Fabra},
 	address = {Barcelona, Spain},
-	author = {Srinivasamurthy, Ajay}
+	author = {Srinivasamurthy, Ajay},
+  Type                     = {{Doctoral dissertation}},
 }
 
 @phdthesis {koduri2016thesis,
@@ -707,7 +686,8 @@ address = "San Jose, CA, USA",
 	pages = {332},
 	school = {Universitat Pompeu Fabra},
 	address = {Barcelona, Spain},
-	author = {Koduri, Gopala Krishna}
+	author = {Koduri, Gopala Krishna},
+  Type                     = {{Doctoral dissertation}},
 }
 
 @Book{bhatkhande:90:book,
@@ -955,15 +935,6 @@ address = "San Jose, CA, USA",
   Volume                   = {13},
 
   Timestamp                = {2014.04.09.17}
-}
-
-@PhdThesis{chordia:05:phdthesis,
-  Title                    = {{Automatic Transcription of Solo Tabla Music}},
-  Author                   = {Parag Chordia},
-  School                   = {{Stanford University}},
-  Year                     = {2005},
-
-  Timestamp                = {2014.04.09.18}
 }
 
 @Article{chordia2013jointRaag,
@@ -1238,13 +1209,6 @@ address = {Prague, Czech Republic}
   Timestamp                = {2012.02.21}
 }
 
-@PhdThesis{downie1999evaluating,
-  Title                    = {Evaluating a simple approach to music information retrieval: Conceiving melodic n-grams as text},
-  Author                   = {Downie, J. Stephen},
-  School                   = {The University of Western Ontario},
-  Year                     = {1999}
-}
-
 @InProceedings{dressler2007tuning,
   Title                    = {Tuning frequency estimation using circular statistics},
   Author                   = {Dressler, Karin and Streich, Sebastian},
@@ -1307,6 +1271,8 @@ address = {Prague, Czech Republic}
   Author                   = {Ederer, Eric B.},
   School                   = {University of California, Santa Barbara},
   Year                     = {2011},
+  Type                     = {{Doctoral dissertation}},
+  Address		   = {Santa Barbara, CA, USA}
 }
 
 @Misc{ellis2003dynamic,
@@ -1330,9 +1296,10 @@ address = {Prague, Czech Republic}
 
 @inproceedings{peeling2007matching,
   title={A Probabilistic Framework for Matching Music Representations},
-  author={Peeling, Paul H. and Cemgil, Ali Taylan and Godsill, Simon J.},
-  booktitle={ISMIR},
+  author={Peeling, Paul H. and Cem\-gil, Ali Taylan and Godsill, Simon J.},
+  booktitle={{Proceedings of the 8th International Conference on Music Information Retrieval (ISMIR 2007)}},
   year={2007},
+  pages={267--272},
   address = {Vienna, Austria},
 }
 
@@ -1348,10 +1315,19 @@ address = {Prague, Czech Republic}
 @inproceedings{pratzlich2016msstw_icassp,
 author    = {Thomas Pr{\"a}tzlich and Jonathan Driedger and Meinard M{\"u}ller},
 title     = {Memory-Restricted Multiscale Dynamic Time Warping},
-booktitle = {Proceedings of the {IEEE} International Conference on Acoustics, Speech, and Signal Processing ({ICASSP})},
+Booktitle                = {{Proceedings of the 41th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2016)}},
 address   = {Shanghai, China},
 year      = {2016},
 pages     = {569--573},
+}
+
+@conference {srinivasamurty2016metertracking,
+	title = {A generalized {B}ayesian model for tracking long metrical cycles in acoustic music signals},
+	booktitle = {{41st IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2016)}},
+	year = {2016},
+	pages = {76--80},
+	address = {Shanghai, China},
+	author = {Srinivasamurthy, Ajay and Holzapfel, Andre and Cemgil, Ali Taylan and Serra, Xavier}
 }
 
 @InProceedings{muller2009folk,
@@ -1427,7 +1403,9 @@ pages     = {569--573},
   title={Extracting Knowledge for Cultural Heritage Knowledge Base Population},
   author={Takhirov, Naimdjon},
   year={2013},
-  school={Norwegian University of Science and Technolog}
+  school={Norwegian University of Science and Technology},
+  address={Trondheim, Norway},
+  Type                     = {{Doctoral dissertation}},
 }
 
 @inproceedings{tzanetakis2014computational,
@@ -1474,7 +1452,7 @@ pages     = {569--573},
 }
 
 @misc{van2016meertens,
-  title={The Meertens Tune Collections: The Annotated Corpus (MTC-ANN) Versions 1.1 and 2.0.1},
+  title={{The Meertens Tune Collections: The Annotated Corpus (MTC-ANN) Versions 1.1 and 2.0.1}},
   author={van Kranenburg, Peter and Janssen, B and Volk, Anja},
   howpublished={Meertens Online Reports},
   year={2016}
@@ -1607,7 +1585,9 @@ pages     = {569--573},
   Title                    = {Tonal Description of Music Audio Signals},
   Author                   = {G{\'o}mez, Emilia},
   School                   = {Universitat Pompeu Fabra},
-  Year                     = {2006}
+  Year                     = {2006},
+  address = {Barcelona, Spain},
+  Type                     = {{Doctoral dissertation}},
 }
 
 @inproceedings{fujishima1999realtime,
@@ -1657,18 +1637,6 @@ Address = {Beijing, China},
   Publisher                = {Elsevier}
 }
 
-@PhdThesis{gomez:06:phd,
-  Title                    = {{Tonal description of music audio signals}},
-  Author                   = {G\'{o}mez, Emilia},
-  School                   = {Universitat Pompeu Fabra},
-  Year                     = {2006},
-
-  Address                  = {Barcelona, Spain},
-
-  __markedentry            = {[Ajay:]},
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04}
-}
 
 @Book{gallager:13:book,
   Title                    = {{Stochastic Processes: Theory for Applications}},
@@ -1687,7 +1655,7 @@ Address = {Beijing, China},
   School                   = {Izmir Institute of Technology},
   Year                     = {2012},
   Address                  = {Izmir, Turkey},
-
+  Type                     = {{Doctoral dissertation}},
 }
 
 @Article{gedik2010pitch,
@@ -1829,30 +1797,7 @@ Address = {Beijing, China},
   Timestamp                = {2016.01.04}
 }
 
-@InProceedings{grosche:11:tempogram,
-  Title                    = {{T}empogram {T}oolbox: {MATLAB} tempo and pulse analysis of music recordings},
-  Author                   = {Peter Grosche and Meinard M{\"u}ller},
-  Booktitle                = {{12th International Conference on Music Information Retrieval (ISMIR), late-breaking contribution)}},
-  Year                     = {2011},
-
-  address = {Miami, FL, USA},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@InProceedings{grunberg:12:robot,
-  Title                    = {{Towards the Development of Robot Musical Audition}},
-  Author                   = {{Grunberg, D. K. and Batula, A. M. and Kim, Y. E.}},
-  Booktitle                = {{Proceedings of the Music, Mind, and Invention Workshop (MMI)}},
-  Year                     = {2012},
-
-  Address                  = {New Jersey, USA},
-
-  Owner                    = {hannover},
-  Timestamp                = {2015.04.18}
-}
-
-@MastersThesis{sankalp:12:thesis,
+@MastersThesis{gulati2012thesis,
   Title                    = {{A Tonic Identification Approach for Indian Art Music}},
   Author                   = {Sankalp Gulati},
   School                   = {{Universitat Pompeu Fabra}},
@@ -1861,110 +1806,8 @@ Address = {Beijing, China},
   Address                  = {Barcelona, Spain},
   Type                     = {{Master's Thesis}},
 
-  Timestamp                = {2014.04.09.18}
 }
 
-@Article{gulati:14:tonicJNMR,
-  Title                    = {{Automatic Tonic Identification in Indian Art Music: Approaches and Evaluation}},
-  Author                   = {Gulati, Sankalp and Bellur, Ashwin and Salamon, Justin and Ranjani, H. G. and Ishwar, Vignesh and Murthy, Hema A. and Serra, Xavier},
-  Journal                  = {{Journal of New Music Research}},
-  Year                     = {{2014}},
-  Number                   = {1},
-  Pages                    = {55--73},
-  Volume                   = {43},
-
-  Timestamp                = {2014.04.09.17}
-}
-
-@InProceedings{gulati:10:pattern,
-  Title                    = {{Rhythm Pattern Representations for Tempo Detection in Music}},
-  Author                   = {Sankalp Gulati and Preeti Rao},
-  Booktitle                = {{Proceedings of the First International Conference on Intelligent Interactive Technologies and Multimedia (IITM-2010)}},
-  Year                     = {2010},
-
-  Address                  = {Allahabad, India},
-  Pages                    = {241-244},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@InCollection{sankalp:12:meter,
-  Title                    = {{Meter Detection from Audio for Indian Music}},
-  Author                   = {Sankalp Gulati and Vishweshwara Rao and Preeti Rao},
-  Booktitle                = {{Speech, Sound and Music Processing: Embracing Research in India: 8th International Symposium, CMMR 2011, 20th International Symposium, FRSM 2011, Bhubaneswar, India, March 9-12, 2011, Revised Selected Papers, Lecture Notes in Computer Science, vol. 7172}},
-  Publisher                = {Springer: Berlin Heidelberg},
-  Year                     = {2012},
-  Pages                    = {34--43},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@InProceedings{sankalp:11:meter_short,
-  Title                    = {{Meter detection from audio for Indian music}},
-  Author                   = {Sankalp Gulati and Vishweshwara Rao and Preeti Rao},
-  Booktitle                = {{Proc. of 8th International Symposium on Computer Music Modeling and Retrieval (CMMR)}},
-  Year                     = {2011},
-
-  Address                  = {Bhubaneswar, India},
-  Pages                    = {34--43},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@PhdThesis{gouyon:05:phdthesis,
-  Title                    = {{A Computational Approach to Rhythm Description}},
-  Author                   = {Fabien Guoyon},
-  School                   = {{Universitat Pompeu Fabra}},
-  Year                     = {2005},
-
-  Address                  = {Barcelona, Spain},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@MastersThesis{gupta:15:thesis,
-  Title                    = {{Discovery of Percussion Patterns from Tabla Solo Recordings}},
-  Author                   = {Swapnil Gupta},
-  School                   = {{Universitat Pompeu Fabra}},
-  Year                     = {2015},
-
-  Address                  = {Barcelona, Spain},
-  Type                     = {{Master's Thesis}}
-}
-
-@InProceedings{gupta:15:tabla,
-  Title                    = {{Discovery of Syllabic Percussion Patterns in Tabla Solo Recordings}},
-  Author                   = {Gupta, Swapnil and Srinivasamurthy, Ajay and Kumar, Manoj and Murthy, Hema and Serra, Xavier},
-  Booktitle                = {{Proceedings of the 16th International Society for Music Information Retrieval Conference (ISMIR 2015)}},
-  Year                     = {2015},
-
-  Address                  = {Malaga, Spain},
-  Pages                    = {385--391}
-}
-
-@Article{Hadji:09:search,
-  Title                    = {{Efficient approximate search on string collections}},
-  Author                   = {Hadjieleftheriou, Marios and Li, Chen},
-  Journal                  = {{Proceedings of the VLDB Endowment}},
-  Year                     = {2009},
-  Number                   = {2},
-  Pages                    = {1660--1661},
-  Volume                   = {2},
-
-  Owner                    = {Ajay},
-  Publisher                = {VLDB Endowment},
-  Timestamp                = {2016.01.04}
-}
-
-@InProceedings{hainsworth:03:pfbeat,
-  Title                    = {{Beat tracking with particle filtering algorithms}},
-  Author                   = {Hainsworth, Stephen and Macleod, Malcolm},
-  Booktitle                = {{IEEE Workshop on Applications of Signal Processing to Audio and Acoustics}},
-  Year                     = {2003},
-
-  Address                  = {New Paltz, NY, USA},
-  Pages                    = {91-94}
-}
 
 @Book{hamilton1994time,
   Title                    = {Time series analysis},
@@ -1974,46 +1817,6 @@ Address = {Beijing, China},
   Volume                   = {2}
 }
 
-@Article{hannon:12:perception,
-  Title                    = {{Familiarity overrides complexity in rhythm perception: a cross-cultural comparison of American and Turkish listeners}},
-  Author                   = {Hannon, Erin E. and Soley, Gaye and Ullal, Sangeeta},
-  Journal                  = {{Journal of experimental psychology: Human perception and performance}},
-  Year                     = {2012},
-  Number                   = {3},
-  Pages                    = {543-548},
-  Volume                   = {38},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Article{ho:97:chinese,
-  Title                    = {Aesthetic Considerations in Understanding Chinese Literati Musical Behaviour},
-  Author                   = {Edward Ho},
-  Journal                  = {{British Journal of Ethnomusicology}},
-  Year                     = {1997},
-  Pages                    = {35-49},
-  Volume                   = {6},
-
-  Date-added               = {2013-05-01 19:38:20 +0000},
-  Date-modified            = {2013-05-05 14:14:28 +0000},
-  Keywords                 = {Vamp},
-  Owner                    = {mitian},
-  Timestamp                = {2014.04.09.17}
-}
-
-@Article{hochreiter:97:lstm,
-  Title                    = {{Long short-term memory}},
-  Author                   = {Sepp Hochreiter and J\"{u}rgen Schmidhuber},
-  Journal                  = {{Neural Computation}},
-  Year                     = {1997},
-  Number                   = {8},
-  Pages                    = {1735--1780},
-  Volume                   = {9},
-
-  __markedentry            = {[Ajay:]},
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04}
-}
 
 @incollection{sutskever2014aequence,
 title = {Sequence to Sequence Learning with Neural Networks},
@@ -2073,18 +1876,6 @@ address = {Miami, FL, USA}
   Address                  = {New Orleans, LA, USA},
 }
 
-@InProceedings{hockman:12:downbeat,
-  Title                    = {{One in the Jungle: Downbeat Detection in Hardcore, Jungle, and Drum and Bass}},
-  Author                   = {Hockman, Jason A. and Davies, Matthew E. P. and Fujinaga, Ichiro},
-  Booktitle                = {{Proceedings of the 13th International Society for Music Information Retrieval Conference (ISMIR 2012)}},
-  Year                     = {2012},
-
-  Address                  = {Porto, Portugal},
-  Pages                    = {169-174},
-
-  Timestamp                = {2014.04.09.18}
-}
-
 @inproceedings{Krishna2012,
 author = {Krishna, T M and Ishwar, Vignesh},
 booktitle = {{Proceedings of 2nd CompMusic Workshop}},
@@ -2098,7 +1889,9 @@ Address                  = {Istanbul, Turkey}
   Title                    = {Similarity methods for computational ethnomusicology},
   Author                   = {Holzapfel, Andre},
   School                   = {University of Crete},
-  Year                     = {2010}
+  Year                     = {2010},
+  address = {Heraklion, Greece},
+  Type                     = {{Doctoral dissertation}},
 }
 
 @article{holzapfel2015usul,
@@ -2130,67 +1923,6 @@ Address                  = {Istanbul, Turkey}
   Abstract                 = {Section linking aims at relating structural units in the notation of a piece of music to their occurrences in a performance of the piece. In this paper, we address this task by presenting a score-informed hierarchical Hidden Markov Model (HHMM) for modeling musical audio signals on the temporal level of sections present in a composition, where the main idea is to explicitly model the long range and hierarchical structure of music signals. So far, approaches based on HHMM or similar methods were mainly developed for a note-to-note alignment, i.e. an alignment based on shorter temporal units than sections. Such approaches, however, are conceptually problematic when the performances differ substantially from the reference score due to interpretation and improvisation, a very common phenomenon, for instance, in {T}urkish makam music. In addition to having low computational complexity compared to note-to-note alignment and achieving a transparent and elegant model, the experimental results show that our method outperforms a previously presented approach on a {T}urkish makam music corpus.},
 }
 
-@InProceedings{holzapfel:12:meterTurkWkShop,
-  Title                    = {{Metrical Strength and Contradiction in Turkish Makam Music}},
-  Author                   = {Holzapfel, Andr\'e and Boz\-kurt, Bari\c{s}},
-  Booktitle                = {{Proceedings of the 2nd CompMusic Workshop}},
-  Year                     = {2012},
-
-  Address                  = {Istanbul, Turkey},
-  Pages                    = {79-84},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Article{holzapfel:12:beat,
-  Title                    = {{Selective Sampling for Beat Tracking Evaluation}},
-  Author                   = {Holzapfel, Andr\'e and Davies, M.E.P. and Zapata, J.R. and Oliveira, J.L. and Gouyon, F.},
-  Journal                  = {{IEEE Transactions on Audio, Speech, and Language Processing}},
-  Year                     = {2012},
-
-
-  Number                   = {9},
-  Pages                    = {2539-2548},
-  Volume                   = {20},
-
-  Timestamp                = {2014.04.09.17}
-}
-
-@InProceedings{holzapfel:11:RhythmSimSMC,
-  Title                    = {{Improving Tempo-sensitive and Tempo-robust Descriptors for Rhythmic Similarity}},
-  Author                   = {Andr\'e Holzapfel and Arthur Flexer and Gerhard Widmer},
-  Booktitle                = {{Proceedings of the Conference on Sound and Music Computing}},
-  Year                     = {2011},
-
-  Address                  = {Padova, Italy},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@InProceedings{holzapfel:14:odd,
-  Title                    = {{Tracking the ``odd'': Meter inference in a culturally diverse music corpus}},
-  Author                   = {Holzapfel, Andr\'e and Krebs, Florian and Srinivasamurthy, Ajay},
-  Booktitle                = {{Proceedings of the 15th International Society for Music Information Retrieval Conference (ISMIR 2014)}},
-  Year                     = {2014},
-
-  Address                  = {Taipei, Taiwan},
-  Pages                    = {425-430},
-
-  Owner                    = {hannover},
-  Timestamp                = {2014.07.18}
-}
-
-@Article{holzapfel:10:scale,
-  Title                    = {{Scale transform in rhythmic similarity of music}},
-  Author                   = {Andre Holzapfel and Yannis Stylianou},
-  Journal                  = {{IEEE Transactions on Speech and Audio Processing}},
-  Year                     = {2011},
-  Number                   = {1},
-  Pages                    = {176-185},
-  Volume                   = {19},
-
-  Timestamp                = {2014.04.09.18}
-}
 
 @InProceedings{holzapfel2009rhythmic,
   Title                    = {Rhythmic similarity in traditional {T}urkish music},
@@ -2201,17 +1933,6 @@ Address                  = {Istanbul, Turkey}
   Address                  = {Kobe, Japan},
 }
 
-@InProceedings{holzapfel:08:beatgrpdelay,
-  Title                    = {{Beat tracking using group delay based onset detection}},
-  Author                   = {A. Holzapfel and Y. Stylianou},
-  Booktitle                = {{Proceedings of the 9th International Society for Music Information Retrieval Conference (ISMIR 2008)}},
-  Year                     = {2008},
-  Pages                    = {653-658},
-
-  Location                 = {Philadelphia, USA},
-  Owner                    = {hannover},
-  Timestamp                = {2013.06.02},
-}
 
 @InProceedings{hu2003polyphonic,
   Title                    = {{Polyphonic Audio Matching and Alignment for Music Retrieval Polyphonic Audio Matching and Alignment for Music Retrieval}},
@@ -2223,53 +1944,6 @@ Address                  = {Istanbul, Turkey}
   ISBN                     = {0780378504}
 }
 
-@InCollection{huang:10:sroverview,
-  Title                    = {{An Overview of Modern Speech Recognition}},
-  Author                   = {Huang, Xuedong and Deng, Li},
-  Booktitle                = {{Handbook of Natural Language Processing}},
-  Publisher                = {Chapman and Hall/CRC},
-  Year                     = {2010},
-  Edition                  = {2nd},
-  Pages                    = {339-366},
-  Series                   = {Chapman \& Hall/CRC Machine Learning \& Pattern Recognition},
-
-  Timestamp                = {2014.04.16.19}
-}
-
-@InCollection{hughes:14:grovesolmization,
-  Title                    = {Solmization},
-  Author                   = {Andrew Hughes and Edith Gerson-Kiwi},
-  Booktitle                = {Grove music online. Oxford Music Online},
-  Publisher                = {Oxford University Press},
-  Year                     = {accessed April 28, 2014},
-
-  Timestamp                = {2014.04.28.16},
-  Url                      = {http://www.oxfordmusiconline.com/subscriber/article/grove/music/26154}
-}
-
-@Article{hughes:00:syllable,
-  Title                    = {No nonsense: the logic and power of acoustic-iconic mnemonic systems},
-  Author                   = {Hughes, David},
-  Journal                  = {{British Journal of Ethnomusicology}},
-  Year                     = {2000},
-  Number                   = {2},
-  Pages                    = {93--120},
-  Volume                   = {9},
-
-  Timestamp                = {2014.04.28.16}
-}
-
-@Article{huron:02:humdrum,
-  Title                    = {{Music information processing using the humdrum toolkit: Concepts, examples, and lessons}},
-  Author                   = {David Huron},
-  Journal                  = {{Computer Music Journal}},
-  Year                     = {2002},
-  Number                   = {2},
-  Pages                    = {11--26},
-  Volume                   = {26},
-
-  Timestamp                = {2014.04.09.17}
-}
 
 @Book{huron2006sweet,
   Title                    = {Sweet anticipation: Music and the psychology of expectation},
@@ -2282,14 +1956,6 @@ Address                  = {Istanbul, Turkey}
   ISBN                     = {0262582783}
 }
 
-@Book{iso:01:15919trans,
-  Title                    = {{ISO/TC 15919:2001 Information and documentation -- Transliteration of Devanagari and related Indic scripts into Latin characters}},
-  Author                   = {ISO/TC},
-  Publisher                = {{International Organization for Standardization}},
-  Year                     = {2001},
-
-  Address                  = {Geneva, Switzerland}
-}
 
 @Book{jackendoff1985generative,
   Title                    = {A generative theory of tonal music},
@@ -2298,51 +1964,7 @@ Address                  = {Istanbul, Turkey}
   Year                     = {1985}
 }
 
-@conference {srinivasamurty2016metertracking,
-	title = {A generalized {B}ayesian model for tracking long metrical cycles in acoustic music signals},
-	booktitle = {41st IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 2016)},
-	year = {2016},
-	month = {20/03/2016},
-	pages = {76-80},
-	publisher = {IEEE},
-	organization = {IEEE},
-	address = {Shanghai, China},
-	author = {Srinivasamurthy, Ajay and Holzapfel, Andre and Cemgil, Ali Taylan and Serra, Xavier}
-}
-
-
-@PhdThesis{jehan:05:phdthesis,
-  Title                    = {{Creating music by listening}},
-  Author                   = {Tristan Jehan},
-  School                   = {{Massachusetts Institute of Technology}},
-  Year                     = {2005},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Book{jha:01:book,
-  Title                    = {{Abhinav Geetanjali Vol. I-V}},
-  Author                   = {Ramashray Jha},
-  Publisher                = {{Sangeet Sadan Prakashan}},
-  Year                     = {2001},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Article{johansen:08:auxpf,
-  Title                    = {{A note on auxiliary particle filters}},
-  Author                   = {Johansen, A. and Doucet, A.},
-  Journal                  = {{Statistics and Probability Letters}},
-  Year                     = {2008},
-  Number                   = {12},
-  Pages                    = {1498-1504},
-  Volume                   = {78},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04}
-}
-
-@Book{juslin01,
+@Book{juslin2001musicEmotion,
   Title                    = {Music and Emotion: Theory and Research},
   Author                   = {Patrik N. Juslin and John Sloboda},
   Publisher                = {Oxford University Press},
@@ -2354,22 +1976,11 @@ Address                  = {Istanbul, Turkey}
   ISBN                     = {0192631888}
 }
 
-@InProceedings{kapur:04:beatbox,
-  Title                    = {Query by Beatboxing: Music Information Retrieval for the DJ},
-  Author                   = {Kapur, Ajay and Benning, Manjinder and Tzanetakis, George},
-  Booktitle                = {{Proceedings of the International Conference on Music Information Retrieval (ISMIR 2004)}},
-  Year                     = {2004},
-
-  Address                  = {Barcelona, Spain},
-
-  Timestamp                = {2014.04.16.18}
-}
-
 @InBook{karadeniz1984turk,
   Title                    = {T\"{u}rk Mus{\i}kisinin Nazariye ve Esaslar{\i}},
   Author                   = {Karadeniz, M. Ekrem},
   Pages                    = {159},
-  Publisher                = {{\.I}{\c{s}} Bankas{\i} Yay{\i}nlar{\i} (in {T}urkish)},
+  Publisher                = {{\.I}{\c{s}} Bankas{\i} Yay{\i}nlar{\i}},
   Year                     = {1984},
 
   Booktitle                = {T\"{u}rk Musikisinde Kullan{\i}lm{\i}\c{s} olan beste \c{c}e\c{s}itleri}
@@ -2394,16 +2005,6 @@ Address                  = {Istanbul, Turkey}
   Pages                    = {10--14}
 }
 
-@InProceedings{kauppinen:01:adaptive,
-  Title                    = {An adaptive technique for modeling audio signals},
-  Author                   = {Kauppinen, Ismo and Roth, Kari},
-  Booktitle                = {{Conference on Digital Audio Effects DAFX}},
-  Year                     = {2001},
-
-  Date-added               = {2013-07-30 21:53:09 +0000},
-  Date-modified            = {2013-07-30 21:53:43 +0000},
-  Timestamp                = {2014.04.09.18}
-}
 
 @inproceedings{Holzapfel2015b,
   author = {Holzapfel, Andr\'{e}},
@@ -2433,14 +2034,6 @@ Address                  = {Istanbul, Turkey}
   year = {In Press},
 }
 
-@InCollection{kececioglu:10:usulfigs,
-  Title                    = {{Usul-Velvele Editor}},
-  Author                   = {Ke\c{c}ecio\u{g}lu, M. U\u{g}ur},
-  Booktitle                = {http://notist.org/usul\_velvele\%20editor\_ing.html (accessed 14.01.2013)},
-  Year                     = {2010},
-
-  Timestamp                = {2014.04.09.18}
-}
 
 @Article{chakrabarti2002locally,
   Title                    = {Locally adaptive dimensionality reduction for indexing large time series databases},
@@ -2486,51 +2079,6 @@ Address                  = {Istanbul, Turkey}
   Volume                   = {95},
 }
 
-@Article{kippen:89:perclanguage,
-  Title                    = {{The identification and modelling of a percussion `language,' and the Emergence of Musical Concepts in a machine-learning experimental set-up}},
-  Author                   = {Kippen, Jim and Bel, Bernard},
-  Journal                  = {{Computers and the Humanities}},
-  Year                     = {1989},
-
-  Number                   = {3},
-  Pages                    = {199--214},
-  Volume                   = {23},
-
-  Publisher                = {Kluwer Academic Publishers}
-}
-
-@InProceedings{klapuri:99:onset,
-  Title                    = {{Sound onset detection by applying psychoacoustic knowledge}},
-  Author                   = {Klapuri, Anssi},
-  Booktitle                = {{Proceedings of the 24th IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP 1999)}},
-  Year                     = {1999},
-  Address                  = {Phoenix, USA},
-  Pages                    = {3089--3092},
-  Volume                   = {6},
-  Timestamp                = {2014.04.09.18}
-}
-
-@Book{klapuri:06:transcription,
-  Title                    = {{Signal Processing Methods for Music Transcription}},
-  Author                   = {Klapuri, Anssi and Davy, Manuel},
-  Publisher                = {{Springer}},
-  Year                     = {2006},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Article{klapuri:06:meter,
-  Title                    = {{Analysis of the Meter of Acoustic Musical Signals}},
-  Author                   = {Klapuri, Anssi and Eronen, Antti J. and Astola, Jaakko T.},
-  Journal                  = {{IEEE Transactions on Audio, Speech, and Language Processing}},
-  Year                     = {2006},
-  Number                   = {1},
-  Pages                    = {342--355},
-  Volume                   = {14},
-
-  Timestamp                = {2014.04.09.17}
-}
-
 @Book{klir1995fuzzy,
   Title                    = {Fuzzy Sets and Fuzzy Logic: Theory and Applications},
   Author                   = {Klir, George J. and Yuan, Bo},
@@ -2538,27 +2086,6 @@ Address                  = {Istanbul, Turkey}
   Year                     = {1995}
 }
 
-@Conference{koduri:14:ontoIntonation,
-  Title                    = {{Culture-aware approaches to modeling and description of intonation using multimodal data}},
-  Author                   = {Koduri, Gopala Krishna},
-  Booktitle                = {{International Conference on Knowledge Engineering and Knowledge Management (EKAW)}},
-  Year                     = {2014},
-
-  Address                  = {Linkoping, Sweden},
-}
-
-@Article{koduri:12:raagarecog,
-  Title                    = {R{\=a}ga recognition based on pitch distribution methods},
-  Author                   = {Koduri, G.~K. and Gulati, S. and Rao, P. and Serra, X.},
-  Journal                  = {Journal of New Music Research},
-  Year                     = {2012},
-  Number                   = {4},
-  Pages                    = {337--350},
-  Volume                   = {41},
-
-  Publisher                = {Taylor \& Francis},
-  Timestamp                = {2014.04.09.17}
-}
 
 @Article{koduri2014intonation,
   Title                    = {Intonation Analysis of r{\={a}}gas in {C}arnatic Music},
@@ -2597,84 +2124,12 @@ address = {Miami, FL, USA},
 
 }
 
-@InProceedings{Koduri:11:carnaticISMIR,
-  Title                    = {{Computational approaches for the understanding of melody in Carnatic Music}},
-  Author                   = {Gopala K. Koduri and Miron, Marius and Serra, Joan and Serra, Xavier},
-  Booktitle                = {{Proceedings of the 12th International Society for Music Information Retrieval Conference (ISMIR 2011)}},
-  Year                     = {2011},
-
-  address = {Miami, FL, USA},
-  Pages                    = {263 -- 268},
-
-  Timestamp                = {2014.04.09.18},
-
-}
-
-@Conference{koduri:13:ontoMelody,
-  Title                    = {{A knowledge-based approach to computational analysis of melody in Indian art music}},
-  Author                   = {Koduri, Gopala Krishna and Serra, Xavier},
-  Booktitle                = {{International Workshop on Semantic Music and Media, International Semantic Web Conference}},
-  Year                     = {2013},
-
-  Address                  = {Sydney, Australia},
-  Pages                    = {1-10}
-}
-
-@Article{kolinski:73:rhythm,
-  Title                    = {{A cross-cultural approach to metro-rhythmic patterns}},
-  Author                   = {Mieczyslaw Kolinski},
-  Journal                  = {Ethnomusicology},
-  Year                     = {1973},
-  Number                   = {3},
-  Pages                    = {494-506},
-  Volume                   = {17},
-
-  Timestamp                = {2014.04.09.18}
-}
 
 @Book{krause1987taxicab,
   Title                    = {Taxicab geometry: An adventure in non-Euclidean geometry},
   Author                   = {Krause, Eugene F.},
   Publisher                = {Dover Publications},
   Year                     = {1987}
-}
-
-@InProceedings{krebs:15:ismir,
-  Title                    = {An Efficient State-Space Model for Joint Tempo and Meter Tracking},
-  Author                   = {Krebs, F. and B\"ock, S. and Widmer, G.},
-  Booktitle                = {{Proceedings of the 16th International Society for Music Information Retrieval Conference (ISMIR 2015)}},
-  Year                     = {2015},
-
-  Address                  = {Malaga, Spain},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04}
-}
-
-@InProceedings{krebs:13:bpm,
-  Title                    = {{Rhythmic Pattern Modeling for Beat- and Downbeat Tracking in Musical Audio}},
-  Author                   = {Krebs, Florian and Böck, Sebastian and Widmer, Gerhard},
-  Booktitle                = {{Proceedings of the 14th International Society for Music Information Retrieval Conference (ISMIR 2014)}},
-  Year                     = {2013},
-
-  Address                  = {Curitiba, Brazil},
-
-  Timestamp                = {2014.04.26.23}
-}
-
-@Article{krebs:15:pf,
-  Title                    = {{Inferring Metrical Structure in Music Using Particle Filters}},
-  Author                   = {Krebs, Florian and Holzapfel, Andr\'e and Cemgil, Ali Taylan and Widmer, Gerhard},
-  Journal                  = {{IEEE/ACM Transactions on Audio, Speech, and Language Processing}},
-  Year                     = {2015},
-
-  Number                   = {5},
-  Pages                    = {817-827},
-  Volume                   = {23},
-
-  Doi                      = {10.1109/TASLP.2015.2409737},
-  ISSN                     = {2329-9290},
-  Timestamp                = {2016.01.04}
 }
 
 @Article{krumhansl1979quantification,
@@ -2690,7 +2145,7 @@ address = {Miami, FL, USA},
 @inproceedings{pardo2005online,
  author = {Pardo, Bryan and Birmingham, William},
  title = {Modeling Form for On-line Following of Musical Performances},
- booktitle = {Proceedings of the 20th National Conference on Artificial Intelligence - Volume 2},
+ booktitle = {{Proceedings of the 20th National Conference on Artificial Intelligence (AAAI 2005) - Volume 2}},
  series = {AAAI'05},
  year = {2005},
  isbn = {1-57735-236-x},
@@ -2701,15 +2156,6 @@ address = {Miami, FL, USA},
  publisher = {AAAI Press},
 } 
 
-
-@InProceedings{kuriakose:15:mridangam,
-  Title                    = {{Akshara Transcription of Mrudangam Strokes in Carnatic Music}},
-  Author                   = {Kuriakose, J. and Kumar, J. C. and Sarala, P. and Murthy, H. A. and Sivaraman, U. K.},
-  Booktitle                = {{Proceedings of the 21st National Conference on Communication (NCC)}},
-  Year                     = {2015},
-
-  Address                  = {Mumbai, India},
-}
 
 @Article{lartillot2011tunisian,
   Title                    = {{Cultural impact in listeners' structural understanding of a {T}unisian traditional modal improvisation, studied with the help of computational models}},
@@ -2742,59 +2188,6 @@ address = {Miami, FL, USA},
   Pages                    = {63--70}
 }
 
-@Book{larue:92:style,
-  Title                    = {{Guidelines for style analysis}},
-  Author                   = {Jan LaRue},
-  Publisher                = {Detroit monographs in musicology},
-  Year                     = {1992},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@InProceedings{seung:00:NMFalgos,
-  Title                    = {{Algorithms for Non-negative Matrix Factorization}},
-  Author                   = {Lee, {Daniel D.} and Seung, {H. Sebastian}},
-  Booktitle                = {{Proceedings of the Conference on Advances in Neural Information Processing Systems (NIPS)}},
-  Year                     = {2000},
-
-  Address                  = {{Denver, CO, USA}},
-  Pages                    = {556--562},
-  Publisher                = {{MIT Press}},
-  Volume                   = {13},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Conference{lee:12:tok,
-  Title                    = {{Tok!: A Collaborative Acoustic Instrument using Mobile Phones}},
-  Author                   = {Lee, Sang Won and Srinivasamurthy, Ajay and Tronel, Gregoire and Shen, Weibin and Freeman, Jason},
-  Booktitle                = {{Proceedings of the 12th International Conference on New Interfaces for Musical Expression (NIME)}},
-  Year                     = {2012},
-
-  Address                  = {Michigan, USA},
-
-  Comment                  = {http://www.nime.org/proceedings/2012/nime2012_61.pdf},
-  Timestamp                = {2014.04.15.13}
-}
-
-@Book{lee:99:chineseInst,
-  Title                    = {{Chinese Musical Instruments (Chinese Music Monograph Series)}},
-  Author                   = {Lee, Yuan-Yuan and Shen, Sin-Yan},
-  Publisher                = {{Chinese Music Society of North America Press}},
-  Year                     = {1999},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Book{lerdahl:83:generative,
-  Title                    = {{A generative theory of tonal music}},
-  Author                   = {Fred Lerdahl and Ray Jackendoff},
-  Publisher                = {{MIT Press Cambridge}},
-  Year                     = {1983},
-
-  Timestamp                = {2014.04.09.18}
-}
-
 @Article{levenshtein1966binary,
   Title                    = {Binary codes capable of correcting deletions, insertions, and reversals},
   Author                   = {Levenshtein, Vladimir Iosifovich},
@@ -2805,36 +2198,6 @@ address = {Miami, FL, USA},
   Volume                   = {10}
 }
 
-@InProceedings{libermann:98:ldc,
-  Title                    = {{The Creation, Distribution and Use of Linguistic Data: The Case of the Linguistic Data Consortium}},
-  Author                   = {Mark Liberman and Christopher Cieri},
-  Booktitle                = {{1st International Conference on Language Resources and Evaluation}},
-  Year                     = {1998},
-
-  Address                  = {Granada, Spain},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@InCollection{ligeti:07:schriften,
-  Title                    = {{Brief an Kai Jakobs}},
-  Author                   = {Gy\"orgy Ligeti},
-  Booktitle                = {{Gesammelte Schriften}},
-  Publisher                = {Paul Sacher Stiftung},
-  Year                     = {2007},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Article{lin:11:rlcs,
-  Title                    = {{Music Matching Based on Rough Longest Common Subsequence}},
-  Author                   = {Lin, H. and Wu, H. and Wang, C.},
-  Journal                  = {{Journal Information Science and Engineering}},
-  Year                     = {2011},
-  Number                   = {1},
-  Pages                    = {95--110},
-  Volume                   = {27}
-}
 
 @InProceedings{lin2003symbolic,
   Title                    = {A symbolic representation of time series, with implications for streaming algorithms},
@@ -2863,24 +2226,6 @@ address = {Miami, FL, USA},
   Publisher                = {Springer}
 }
 
-@InCollection{london:12:grovemeter,
-  Title                    = {{Metre}},
-  Author                   = {Justin London},
-  Booktitle                = {Grove music online},
-  Publisher                = {http://www.grovemusic.com},
-  Year                     = {accessed 19.12.2012},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Book{london:04:time,
-  Title                    = {{Hearing in time: Psychological aspects of musical meter}},
-  Author                   = {London, Justin},
-  Publisher                = {{Oxford: Oxford University Press}},
-  Year                     = {2004},
-
-  Timestamp                = {2014.04.09.18}
-}
 
 @Book{muller2007information,
   Title                    = {Information retrieval for music and motion},
@@ -2900,23 +2245,6 @@ address = {Miami, FL, USA},
 
 }
 
-@Article{muller:11:intro,
-  Title                    = {{Introduction to the Special Issue on Music Signal Processing}},
-  Author                   = {Meinard M{\"u}ller and
- Daniel P. W. Ellis and
- Anssi Klapuri and
- Ga{\"e}l Richard and
- Shigeki Sagayama},
-  Journal                  = {{IEEE Journal of Selected Topics in Signal Processing}},
-  Year                     = {2011},
-  Number                   = {6},
-  Pages                    = {1085-1087},
-  Volume                   = {5},
-
-  Bibsource                = {DBLP, http://dblp.uni-trier.de},
-  Doi                      = {10.1109/JSTSP.2011.2165109},
-  Timestamp                = {2014.04.09.17}
-}
 
 @InProceedings{MuellerE08_JointStructureAnalysis_ISMIR,
   Title                    = {Joint Structure Analysis with Applications to Music Annotation and Synchronization},
@@ -2942,19 +2270,6 @@ address = {Miami, FL, USA},
 
 }
 
-@Article{mann:47:Utest,
-  Title                    = {{On a Test of Whether one of Two Random Variables is Stochastically Larger than the Other}},
-  Author                   = {Mann, Henry B. and Whitney, Donald R.},
-  Journal                  = {{Annals of Mathematical Statistics}},
-  Year                     = {1947},
-
-  Number                   = {1},
-  Pages                    = {50–60},
-  Volume                   = {18},
-
-  Timestamp                = {2014.05.01.19}
-}
-
 @InBook{manning2002,
   Title                    = {Foundations of Statistical Natural Language Processing},
   Author                   = {Manning, Chris and Sch\"{u}tze, Hinrich},
@@ -2971,21 +2286,6 @@ address = {Miami, FL, USA},
   Volume                   = {1}
 }
 
-@Misc{martinez:04:mpeg7,
-  Title                    = {MPEG-7 Overview},
-
-  Author                   = {Jos{\'e} M. Mart{\'\i}nez},
-  HowPublished             = {International Standard, ISO/IEC JTC1/SC29/WG11, Available online: \url{http://mpeg.chiariglione.org/standards/mpeg-7/mpeg-7.htm}},
-  Year                     = {2004},
-
-  Address                  = {Palma de Mallorca, Oct. 2004.},
-  Date-added               = {2013-05-01 19:38:20 +0000},
-  Date-modified            = {2013-05-01 19:38:20 +0000},
-  Keywords                 = {MPEG7},
-  Organization             = {Moving Picture Experts Group},
-  Timestamp                = {2014.04.09.18}
-}
-
 @InProceedings{martin2009musical,
   Title                    = {Musical structure retrieval by aligning self-similarity matrices},
   Author                   = {Martin, Benjamin and Robine, Matthias and Hanna, Pierre},
@@ -2993,18 +2293,6 @@ address = {Miami, FL, USA},
   Year                     = {2009},
   Pages                    = {483--488},
   address = {Utrecht, Netherlands}
-}
-
-@Article{mckinney:07:beatEval,
-  Title                    = {{Evaluation of Audio Beat Tracking and Music Tempo Extraction Algorithms}},
-  Author                   = {McKinney, M. F. and Moelants, D. and Davies, M. E. P. and Klapuri, A.},
-  Journal                  = {{Journal of New Music Research}},
-  Year                     = {2007},
-  Number                   = {1},
-  Pages                    = {1--16},
-  Volume                   = {36},
-
-  Timestamp                = {2014.04.09.17}
 }
 
 @Book{mcphail1981electronic,
@@ -3026,18 +2314,6 @@ address = {Miami, FL, USA},
   Publisher                = {JSTOR}
 }
 
-@MastersThesis{miron:11:thesis,
-  Title                    = {{Automatic Detection of Hindustani Talas}},
-  Author                   = {Marius Miron},
-  School                   = {{Universitat Pompeu Fabra}},
-  Year                     = {2011},
-
-  Address                  = {Barcelona, Spain},
-  Type                     = {{Master's Thesis}},
-
-  Timestamp                = {2014.04.09.18}
-}
-
 @article{moelants2007problems,
   title={The problems and opportunities of content-based analysis and description of ethnic music},
   author={Moelants, Dirk and Cornelis, Olmo and Leman, Marc and Gansemans, Jos and De Caluwe, Rita and De Tr{\'e}, Guy and Matth{\'e}, Tom and Hallez, Axel},
@@ -3050,7 +2326,7 @@ address = {Miami, FL, USA},
 @article{tzanetakis2002musical,
   title={Musical genre classification of audio signals},
   author={Tzanetakis, George and Cook, Perry},
-  journal={IEEE Transactions on speech and audio processing},
+  journal={{IEEE Transactions on Speech and Audio Processing}},
   volume={10},
   number={5},
   pages={293--302},
@@ -3065,17 +2341,6 @@ address = {Miami, FL, USA},
   year={2016}
 }
 
-@Conference{moelants:04:tempo,
-  Title                    = {{Tempo Perception and Musical Content: What makes a piece fast, slow or temporally ambiguous?}},
-  Author                   = {Moelants, Dirk and McKinney, Martin F.},
-  Booktitle                = {{Proceedings of the 8th International Conference on Music Perception and Cognition (ICMPC)}},
-  Year                     = {2004},
-
-  Address                  = {Evanston, IL, USA},
-  Pages                    = {558-562},
-
-  Timestamp                = {2014.04.09.18}
-}
 
 @InProceedings{muller2009making,
   Title                    = {Making chroma features more robust to timbre changes},
@@ -3087,21 +2352,14 @@ address = {Miami, FL, USA},
   address = {Taipei, Taiwan}
 }
 
-@PhdThesis{murphy:02:thesis,
-  Title                    = {{Dynamic Bayesian Networks: Representation, Inference and Learning}},
-  Author                   = {Kevin Murphy},
-  School                   = {UC Berkeley, Computer Science Division},
-  Year                     = {2002},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.02.01}
-}
 
 @PhdThesis{karaosmanoglu2015thesis,
-  Title                    = {T\"{u}rk Musikisi Semboli Verileri \"{U}zerinde Hesaplamal{\i} Ezgi Analizi},
+  Title                    = {T\"{u}rk Musikisi Sembolik Verileri \"{U}zerinde Hesaplamal{\i} Ezgi Analizi},
   Author                   = {Karaosmanoğlu, M. Kemal},
   School                   = {Y{\i}ld{\i}z Teknik \"{U}niversitesi},
   Year                     = {2015},
+  address = {Istanbul, Turkey},
+  Type                     = {{Doctoral dissertation}},
 }
 
 @PhdThesis{raffel2016thesis,
@@ -3109,6 +2367,8 @@ address = {Miami, FL, USA},
   Author                   = {Raffel, Colin},
   School                   = {Columbia University},
   Year                     = {2016},
+  address = {New York, NY, USA},
+  Type                     = {{Doctoral dissertation}},
 }
 
 @InBook{myers1992ethnomusicology,
@@ -3117,28 +2377,6 @@ address = {Miami, FL, USA},
   Pages                    = {110--164},
   Publisher                = {WW Norton},
   Year                     = {1992}
-}
-
-@Book{naimpalli:05:tabla,
-  Title                    = {{Theory and practice of Tabla}},
-  Author                   = { Naimpalli, S.},
-  Publisher                = {{Popular Prakashan}},
-  Year                     = {2005},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Article{navarro:01:strDist,
-  Title                    = {{A Guided Tour to Approximate String Matching}},
-  Author                   = {Navarro, Gonzalo},
-  Journal                  = {{ACM Computing Surveys}},
-  Year                     = {2001},
-
-  Number                   = {1},
-  Pages                    = {31--88},
-  Volume                   = {33},
-
-  Address                  = {New York, NY, USA}
 }
 
 @Book{newman2010graph,
@@ -3187,32 +2425,9 @@ author = {Niedermayer, Bernhard},
 pages = {220},
 school = {Johannes Kepler Universit\"{a}t},
 title = {{Accurate Audio-to-Score Alignment -- Data Acquisition in the Context of Computational Musicology}},
-year = {2012}
-}
-
-@InProceedings{ono:08:hpss,
-  Title                    = {{Separation of a monaural audio signal into harmonic/percussive components by complementary diffusion on spectrogram}},
-  Author                   = {Ono, Nobutaka and Miyamoto, Kenichi and {Le Roux}, Jonathan and Kameoka, Hirokazu and Sagayama, Shigeki},
-  Booktitle                = {{16th European Signal Processing Conference (EUSIPCO 2008)}},
-  Year                     = {2008},
-
-  Address                  = {Lausanne, Switzerland},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.02.26}
-}
-
-@Article{pachet:04:similarity,
-  Title                    = {{Improving timbre similarity: How high is the sky}},
-  Author                   = {Pachet, F. and Aucouturier, J. J.},
-  Journal                  = {{Journal of negative results in speech and audio sciences}},
-  Year                     = {2004},
-  Number                   = {1},
-  Pages                    = {1--13},
-  Volume                   = {1},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04}
+year = {2012},
+address={Linz, Austria},
+  Type                     = {{Doctoral dissertation}},
 }
 
 @Article{panayotis2012cecen,
@@ -3236,33 +2451,6 @@ year = {2012}
   Timestamp                = {2014.04.09.17}
 }
 
-@InProceedings{patel:03:tabla,
-  Title                    = {{Acoustic and Perceptual Comparison of Speech and Drum Sounds in the North Indian Tabla Tradition: An Empirical Study of Sound Symbolism}},
-  Author                   = {Patel, Aniruddh D. and Iversen, John R.},
-  Booktitle                = {{Proceedings of the 15th International Congress of Phonetic Sciences (ICPhS)}},
-  Year                     = {2003},
-
-  Address                  = {Barcelona, Spain},
-  Pages                    = {925--928},
-
-  Citeulike-article-id     = {3314192},
-  Keywords                 = {analysis, design, drum, sound, synthesis},
-  Owner                    = {Ajay},
-  Posted-at                = {2009-01-04 22:30:59},
-  Priority                 = {2},
-  Timestamp                = {2016.01.04}
-}
-
-@Article{paulus:09:hmmdrum,
-  Title                    = {{Drum Sound Detection in Polyphonic Music with Hidden Markov Models}},
-  Author                   = {Paulus, Jouni and Klapuri, Anssi},
-  Journal                  = {{EURASIP Journal on Audio, Speech, and Music Processing}},
-  Year                     = {2009},
-  Pages                    = {497292},
-  Volume                   = {2009},
-
-  Timestamp                = {2014.04.28.16}
-}
 
 @Article{paulus2009music,
   Title                    = {Music structure analysis using a probabilistic fitness measure and a greedy search algorithm},
@@ -3285,17 +2473,6 @@ year = {2012}
   Address                  = {{Utrecht, Netherlands}},
 }
 
-@InProceedings{paulus:05:drum,
-  Title                    = {Drum transcription with non-negative spectrogram factorisation},
-  Author                   = {Paulus, Jouni and Virtanen, Tuomas},
-  Booktitle                = {{Proceedings of the 13th European Signal Processing Conference (EUSIPCO)}},
-  Year                     = {2005},
-
-  Address                  = {{Antalya, Turkey}},
-  Pages                    = {4--8},
-
-  Timestamp                = {2014.04.09.18}
-}
 
 @InCollection{pearce2005methods,
   Title                    = {Methods for Combining Statistical Models of Music},
@@ -3314,7 +2491,7 @@ year = {2012}
 @InCollection{pearce2010melodic,
   Title                    = {Melo\-dic grouping in music information retrieval: New methods and applications},
   Author                   = {Pearce, Marcus T and M{\"u}llensiefen, Daniel and Wiggins, Geraint A},
-  Booktitle                = {Advances in Music Information Retrieval},
+  Booktitle                = {{Advances in Music Information Retrieval}},
   Publisher                = {Springer},
   Year                     = {2010},
   Pages                    = {364--388}
@@ -3332,54 +2509,6 @@ year = {2012}
   Publisher                = {Elsevier}
 }
 
-@InProceedings{peeters:10:tempo,
-  Title                    = {{Template-based estimation of tempo: using unsupervised or supervised learning to create better spectral templates}},
-  Author                   = {Peeters, Geoffroy},
-  Booktitle                = {{Proceedings of the 13th International Conference on Digital Audio Effects (DAFX 2010)}},
-  Year                     = {2010},
-
-  Address                  = {Graz, Austria},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04}
-}
-
-@InProceedings{peeters:12:corpus,
-  Title                    = {{Towards a (Better) Definition of the Description of Annotated MIR Corpora}},
-  Author                   = {Geoffroy Peeters and Karen Fort},
-  Booktitle                = {{Proceedings of the 13th International Society for Music Information Retrieval Conference (ISMIR 2012)}},
-  Year                     = {2012},
-
-  Address                  = {Porto, Portugal},
-  Pages                    = {25 -- 30}
-}
-
-@Article{peeters:11:beat,
-  Title                    = {{Simultaneous Beat and Downbeat-Tracking Using a Probabilistic Framework: Theory and Large-Scale Evaluation}},
-  Author                   = {Peeters, Geoffroy and Papadopoulos, H.},
-  Journal                  = {IEEE Transactions on Audio, Speech and Language Processing},
-  Year                     = {2011},
-  Number                   = {6},
-  Pages                    = {1754-1769},
-  Volume                   = {19},
-
-  Owner                    = {hannover},
-  Timestamp                = {2014.07.11}
-}
-
-@InProceedings{pikrakis:04:meter,
-  Title                    = {{Music meter and tempo tracking from raw polyphonic audio}},
-  Author                   = {Aggelos Pikrakis and Iasonas Antonopoulos and 
-Sergios Theodoridis},
-  Booktitle                = {{Proceedings of the 5th International Conference on Music Information Retrieval (ISMIR 2004)}},
-  Year                     = {2004},
-
-  Address                  = {Barcelona, Spain},
-
-  Ee                       = {http://ismir2004.ismir.net/proceedings/p037-page-192-paper160.pdf},
-  Timestamp                = {2014.04.09.18}
-}
-
 @Article{pikrakis2003recognition,
   Title                    = {Recognition of isolated musical patterns using context dependent dynamic time warping},
   Author                   = {Pikrakis, Aggelos and Theodoridis, Sergios and Kamarotos, Dimitris},
@@ -3392,20 +2521,6 @@ Sergios Theodoridis},
   Publisher                = {IEEE}
 }
 
-@InProceedings{pohle:09:rhythmSim,
-  Title                    = {{On rhythm and general music similarity}},
-  Author                   = {Pohle, T. and 
-Schnitzer, D. and 
-Schedl, M. and 
-Knees, P.},
-  Booktitle                = {{Proceedings of the 10th International Conference on Music Information Retrieval (ISMIR 2009)}},
-  Year                     = {2009},
-
-  Address                  = {Kobe, Japan},
-  Pages                    = {525--530},
-
-  Timestamp                = {2014.04.09.18}
-}
 
 @Book{judetz1996meanings,
   Title                    = {Meanings in {T}urkish Musical Culture},
@@ -3427,18 +2542,6 @@ Knees, P.},
 
 }
 
-@InProceedings{rabiner:89:tutorial,
-  Title                    = {{A tutorial on hidden Markov models and selected applications in speech recognition}},
-  Author                   = {Lawrence R. Rabiner},
-  Booktitle                = {{Proceedings of the IEEE}},
-  Year                     = {1989},
-  Number                   = {2},
-  Pages                    = {257--286},
-  Volume                   = {77},
-
-  Timestamp                = {2014.04.27.00}
-}
-
 @misc{mode2016oxford,
     author = {{Powers, et al.}, Harold S.},
     title = {Mode},
@@ -3458,7 +2561,7 @@ Knees, P.},
 	author="S. M. Su\-ma
 and Shashidhar G. Koolagudi",
 	chapter="Raga Classification for {C}arnatic Music",
-	title="Information Systems Design and Intelligent Applications: Proceedings of Second International Conference INDIA 2015, Volume 1",
+	title={{Information Systems Design and Intelligent Applications: Proceedings of Second International Conference INDIA 2015, Volume 1}},
 	year="2015",
 	publisher="Springer India",
 	address="New Delhi",
@@ -3470,9 +2573,9 @@ and Shashidhar G. Koolagudi",
 	year = {2016},
 	pages = {305},
 	school = {Universitat Pompeu Fabra},
-	address = {Barcelona},
-	keywords = {audio analysis, carnatic, chalan, CompMusic, computational analysis, dtw, dynamic time warping, hindustani, Indian art music, melodic description, melodic patterns, Melody, motifs, music information retrieval, Nyas, pakad, pattern network, patterns, phrases, raaga, raga, raga recognition, svara, time delayed melodic surface, Time series, Tonic identification, vector space modeling},
-	author = {Sankalp Gulati}
+	address = {Barcelona, Spain},
+	author = {Gulati, Sankalp},
+  Type                     = {{Doctoral dissertation}},
 }
 
 @InProceedings{gulati2016phraseRaga_icassp,
@@ -3509,17 +2612,6 @@ and Shashidhar G. Koolagudi",
 
 }
 
-@PhdThesis{raimond:08:phd,
-  Title                    = {{A Distributed Music Information System}},
-  Author                   = {Raimond, Yves},
-  School                   = {Queen Mary, University of London},
-  Year                     = {2008},
-
-  __markedentry            = {[Ajay:]},
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04}
-}
-
 @InProceedings{raimond2007musicontology_ismir,
   Title                    = {{The Music Ontology}},
   Author                   = {Raimond, Yves and Abdallah, Samer and Sandler, Mark and Giasson Frederick},
@@ -3531,40 +2623,6 @@ and Shashidhar G. Koolagudi",
   address = "Vienna, Austria",
   pages = "417--422",
 
-}
-
-@Article{raman:34:drums,
-  Title                    = {{The Indian Musical Drums}},
-  Author                   = {Chandrashekar V. Raman},
-  Journal                  = {{Journal of Mathematical Sciences}},
-  Year                     = {1934},
-  Number                   = {3},
-  Pages                    = {179--188},
-  Volume                   = {1},
-
-  Timestamp                = {2014.04.09.17}
-}
-
-@Article{raman:20:drum,
-  Title                    = {{Musical Drums with Harmonic Overtones}},
-  Author                   = {Raman, Chandrashekar V. and Kumar, S.},
-  Journal                  = {{Nature}},
-  Year                     = {1920},
-  Volume                   = {104},
-
-  Timestamp                = {2014.04.09.17}
-}
-
-@InProceedings{ranjani:13:ngram,
-  Title                    = {{Grouping carnatic music notes using a multi- gram language model}},
-  Author                   = {Ranjani, {H. G.} and Sreenivas, {T. V.}},
-  Booktitle                = {{Proceedings of Acoustics 2013}},
-  Year                     = {2013},
-
-  Address                  = {New Delhi, India},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.02.19}
 }
 
 @InProceedings{raphael2010music,
@@ -3589,46 +2647,6 @@ and Shashidhar G. Koolagudi",
   Volume                   = {65},
 
   Publisher                = {Springer}
-}
-
-@Book{ravikiran:08:carnatic,
-  Title                    = {{Perfecting Carnatic Music, Vol. I-II}},
-  Author                   = {Chitravina N. Ravikiran},
-  Publisher                = {{The International Foundation for Carnatic Music, www.ravikiranmusic.com}},
-  Year                     = {2008},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Book{riley:97:chineseTheatre,
-  Title                    = {{Chinese Theatre and the Actor in Performance}},
-  Author                   = {Riley, Jo},
-  Publisher                = {Cambridge University Press},
-  Year                     = {1997},
-
-  Date-added               = {2013-09-21 14:25:55 +0000},
-  Date-modified            = {2013-09-21 14:27:40 +0000},
-  Timestamp                = {2014.04.09.18}
-}
-
-@InProceedings{rodet:01:detection,
-  Title                    = {{Detection and modeling of fast attack transients}},
-  Author                   = {Rodet, Xavier and Jaillet, Florent},
-  Booktitle                = {{Proceedings of the International Computer Music Conference}},
-  Year                     = {2001},
-
-  Date-added               = {2013-05-10 14:16:42 +0000},
-  Date-modified            = {2013-05-10 14:17:13 +0000},
-  Timestamp                = {2014.04.09.18}
-}
-
-@Book{sachs:53:rhythm,
-  Title                    = {{Rhythm and tempo}},
-  Author                   = {Curt Sachs},
-  Publisher                = {W. W. Norton \& Co.},
-  Year                     = {1953},
-
-  Timestamp                = {2014.04.09.18}
 }
 
 @Book{said1979orientalism,
@@ -3763,14 +2781,6 @@ year = {2012}
   Keywords                 = {Classical, Identification, {I}ndian, Multipitch, Tonic},
 }
 
-@Book{samba:98:southMusic,
-  Title                    = {{South Indian Music Vol. I-VI}},
-  Author                   = {Sambamoorthy, P.},
-  Publisher                = {{The Indian Music Publishing House}},
-  Year                     = {1998},
-
-  Timestamp                = {2014.04.09.18}
-}
 
 @InProceedings{sapp2005online,
   Title                    = {Online database of scores in the Humdrum file format},
@@ -3782,27 +2792,6 @@ year = {2012}
 
 }
 
-@InProceedings{sarala:13:concertseg,
-  Title                    = {{Inter and Intra Item Segmentation of Continuous Audio Recordings of Carnatic Music for Archival}},
-  Author                   = {Padi Sarala and Murthy, Hema A.},
-  Booktitle                = {{Proceedings of the 14th International Society for Music Information Retrieval (ISMIR) Conference}},
-  Year                     = {2013},
-
-  Address                  = {Curitiba, Brazil},
-  Pages                    = {487--492}
-}
-
-@MastersThesis{sastry:11:thesis,
-  Title                    = {{N-gram Modeling of Tabla Sequences using Variable-length Hidden Markov Models for Improvisation and Composition}},
-  Author                   = {Avinash Sastry},
-  School                   = {{Georgia Institute of Technology}},
-  Year                     = {2012},
-
-  Address                  = {Atlanta, USA},
-  Type                     = {{Master's Thesis}},
-
-  Timestamp                = {2014.04.09.18}
-}
 
 @Article{serra2009cross,
   Title                    = {Cross recurrence quantification for cover song identification},
@@ -3823,19 +2812,6 @@ year = {2012}
  address = {Orlando, FL, USA},
 }
 
-@InCollection{serra:97:sms,
-  Title                    = {{Musical Sound Modeling with Sinusoids plus Noise}},
-  Author                   = {Serra, Xavier},
-  Booktitle                = {{Musical Signal Processing}},
-  Publisher                = {{Swets \& Zeitlinger}},
-  Year                     = {1997},
-  Pages                    = {91--122},
-  Series                   = {Studies on New Music Research},
-
-  ISBN                     = {90 265 1482 4},
-  Organization             = {Swets \& Zeitlinger},
-  Timestamp                = {2014.04.09.18}
-}
 
 @conference {serra2014corpus,
 	title = {Creating Research Corpora for the Computational Study of Music: The Case of the {CompMusic} Project},
@@ -3873,62 +2849,6 @@ year = {2012}
 
 }
 
-@PhdThesis{serra:89:phdthesis,
-  Title                    = {{A System for Sound Analysis/Transformation/Synthesis based on a Deterministic plus Stochastic Decomposition}},
-  Author                   = {Serra, Xavier},
-  School                   = {{Stanford University}},
-  Year                     = {1989},
-  Type                     = {{PhD Thesis}},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Book{serra:13:roadmap,
-  Title                    = {{Roadmap for Music Information ReSearch}},
-  Author                   = {Serra, Xavier and Michela Magas and Emmanouil Benetos and Magdalena Chudy and Simon Dixon and Arthur Flexer and G{\'o}mez, Emilia and Gouyon, Fabien and Herrera, Perfecto and Jord{\`a}, S. and Oscar Paytuvi and Peeters, Geoffroy and Jan Schl{\"u}ter and Hugues Vinet and Widmer, G.},
-  Year                     = {2013},
-
-  __markedentry            = {[Ajay:]},
-  ISBN                     = {978-2-9540351-1-6},
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04},
-}
-
-@Article{serra:90:spectral,
-  Title                    = {Spectral modeling synthesis: A sound analysis/synthesis system based on a deterministic plus stochastic decomposition},
-  Author                   = {Serra, Xavier and Smith, Julius},
-  Journal                  = {Computer Music Journal},
-  Year                     = {1990},
-  Number                   = {4},
-  Pages                    = {12-24},
-  Volume                   = {14},
-
-  Date-added               = {2013-05-27 10:29:02 +0000},
-  Date-modified            = {2013-05-27 10:30:19 +0000},
-  Timestamp                = {2014.04.09.17}
-}
-
-@Book{shankar:99:music,
-  Title                    = {The Art and Science of Carnatic Music},
-  Author                   = {Vidya Shankar},
-  Publisher                = {Parampara},
-  Year                     = {1999},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.02.04}
-}
-
-@Book{shen:01:chineseMelody,
-  Title                    = {{Chinese Music in the 20th Century (Chinese Music Monograph Series}},
-  Author                   = {Shen, Sinyan},
-  Publisher                = {{Chinese Music Society of North America Press}},
-  Year                     = {2001},
-
-  Date-added               = {2013-05-01 19:38:20 +0000},
-  Date-modified            = {2013-05-01 19:38:20 +0000},
-  Owner                    = {mitian},
-  Timestamp                = {2014.04.09.18}
-}
 
 @Book{signell1986makam,
   Title                    = {Makam: {M}odal practice in {T}urkish art music},
@@ -3958,16 +2878,6 @@ year = {2012}
   Timestamp                = {2014.04.09.17}
 }
 
-@InProceedings{smith:07:tesseract,
-  Title                    = {{An Overview of the Tesseract OCR Engine}},
-  Author                   = {Smith, R.},
-  Booktitle                = {{Proceedings of the Ninth International Conference on Document Analysis and Recognition (ICDAR)}},
-  Year                     = {2007},
-
-  Address                  = {Washington, DC, USA},
-  Pages                    = {629--633},
-  Volume                   = {2}
-}
 
 @InProceedings{sordo2012musicBrowser_2ndCompMusicWorkshop,
   Title                    = {A Musically Aware System for Browsing and Interacting with Audio Music Collections},
@@ -3982,100 +2892,6 @@ year = {2012}
   ISBN                     = {978-84-695-4958-2},
 }
 
-@InProceedings{ajay:14:ismirbo,
-  Title                    = {{Transcription and Recognition of Syllable based Percussion Patterns: The Case of {B}eijing {O}pera}},
-  Author                   = {Srinivasamurthy, A. and Caro, R. and Sundar, H. and Serra, X.},
-  Booktitle                = {{Proceedings of the 15th International Society for Music Information Retrieval Conference (ISMIR 2014)}},
-  Year                     = {2014},
-
-  Address                  = {Taipei, Taiwan},
-  Pages                    = {431--436}
-}
-
-@Conference{ajay:12:cmmr,
-  Title                    = {{Multiple Viewpoint Modeling of North Indian Classical Vocal Compositions}},
-  Author                   = {Srinivasamurthy, Ajay and Chordia, Parag},
-  Booktitle                = {{Proceedings of the 9th International Symposium on Computer Music Modeling and Retrieval (CMMR)}},
-  Year                     = {2012},
-
-  Address                  = {London, United Kingdom},
-  Pages                    = {344-356},
-
-  Comment                  = {http://www.mtg.upf.edu/node/2633},
-  Timestamp                = {2014.04.15.13}
-}
-
-@Conference{ajay:12:humdrum,
-  Title                    = {{A Unified System for Analysis and Representation of Indian Classical Music using Humdrum Syntax}},
-  Author                   = {Ajay Srinivasamurthy and Parag Chordia},
-  Booktitle                = {{Proceedings of the 2nd CompMusic Workshop}},
-  Year                     = {2012},
-
-  Address                  = {Istanbul, Turkey},
-  Pages                    = {38-42},
-
-  Comment                  = {http://mtg.upf.edu/node/2635},
-  Timestamp                = {2014.04.15.13}
-}
-
-@InProceedings{ajay:15:pf,
-  Title                    = {{Particle Filters for Efficient Meter Tracking with Dynamic Bayesian Networks}},
-  Author                   = {Srinivasamurthy, Ajay and Holzapfel, Andre and Cemgil, Ali Taylan and Serra, Xavier},
-  Booktitle                = {{Proceedings of the 16th International Society for Music Information Retrieval Conference (ISMIR 2015)}},
-  Year                     = {2015},
-
-  Address                  = {Malaga, Spain},
-  Pages                    = {197--203}
-}
-
-@Article{ajay:14:rhythmJNMR,
-  Title                    = {{In Search of Automatic Rhythm Analysis Methods for Turkish and Indian Art Music}},
-  Author                   = {Srinivasamurthy, Ajay and Holzapfel, Andr\'e and Serra, Xavier},
-  Journal                  = {{Journal of New Music Research}},
-  Year                     = {2014},
-  Number                   = {1},
-  Pages                    = {97--117},
-  Volume                   = {43},
-
-  Timestamp                = {2014.04.09.17}
-}
-
-@InProceedings{ajay:14:smc,
-  Title                    = {{Corpora for Music Information Research in Indian Art Music}},
-  Author                   = {Srinivasamurthy, Ajay and Koduri, Gopala K. and Gulati, Sankalp and Ishwar, Vignesh and Serra, Xavier},
-  Booktitle                = {{Proceedings of Joint International Computer Music Conference/Sound and Music Computing Conference}},
-  Year                     = {2014},
-
-  Address                  = {Athens, Greece},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2015.09.21}
-}
-
-@InProceedings{ajay:10:dereverb,
-  Title                    = {{Multi-channel Iterative Dereverberation based on Codebook Constrained Iterative Multi-channel Wiener Filter}},
-  Author                   = {Ajay Srinivasamurthy and Sreenivas, {T. V.}},
-  Booktitle                = {{Proceedings of INTERSPEECH 2010}},
-  Year                     = {2010},
-
-  Address                  = {Tokyo, Japan},
-  Pages                    = {981-984},
-
-  Comment                  = {http://mtg.upf.edu/node/2631},
-  Timestamp                = {2014.04.15.13}
-}
-
-@InProceedings{ajay:12:beatWkShop,
-  Title                    = {{A Beat Tracking Approach to Complete Description of Rhythm in Indian Classical Music}},
-  Author                   = {Ajay Srinivasamurthy and Sidharth Subramanian and Gregoire Tronel and Parag Chordia},
-  Booktitle                = {{Proceedings of the 2nd CompMusic Workshop}},
-  Year                     = {2012},
-
-  Address                  = {Istanbul, Turkey},
-  Pages                    = {72--78},
-
-  Timestamp                = {2014.04.09.18}
-}
 
 @article{Subramanian,
 abstract = {In this article, the author analyzes the notes and gamakas of Thodi raaga.},
@@ -4091,28 +2907,15 @@ year = {2007}
 }
 
 @PhdThesis{stubbs1994taksim,
-  Title                    = {{The art and science of taksim: an emprical analysis of traditional improvisation from 20th century Istanbul}},
+  Title                    = {{The art and science of taksim: an empirical analysis of traditional improvisation from 20th century Istanbul}},
   Author                   = {Stubbs, Frederick W.},
   School                   = {Wesleyan University},
   Year                     = {1994},
-  Type                     = {PhD},
-
-  Pages                    = {372}
+  Pages                    = {372},
+  address = {Middletown, CT, USA},
+    Type                     = {{Doctoral dissertation}},
 }
 
-@Article{sundberg:12:PekingOpera,
-  Title                    = {{Acoustical study of classical Peking Opera singing}},
-  Author                   = {Sundberg, Johan and Gu, Lide and Huang, Qiang and Huang, Ping},
-  Journal                  = {Journal of Voice},
-  Year                     = {2012},
-
-  Number                   = {2},
-  Pages                    = {137--143},
-  Volume                   = {26},
-
-  Publisher                = {Elsevier},
-  Timestamp                = {2014.04.09.17}
-}
 
 @Article{surazhsky2005fast,
   Title                    = {Fast exact and approximate geodesics on meshes},
@@ -4146,33 +2949,6 @@ year = {2007}
   Publisher                = {IEEE}
 }
 
-@Book{tkg:09:tyagaraja,
-  Title                    = {{Compositions of Ty\={a}gar\={a}ja}},
-  Author                   = {{T. K. Govinda Rao}},
-  Publisher                = {{Ganamandir Publications}},
-  Year                     = {2009},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Book{tkg:03:dikshitar,
-  Title                    = {{Compositions of Muddusv\={a}mi D\={i}kshitar}},
-  Author                   = {{T. K. Govinda Rao}},
-  Publisher                = {{Ganamandir Publications}},
-  Year                     = {2003},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Book{tkg:03:syama,
-  Title                    = {{Compositions of \'{S}y\={a}m\={a} \'{S}\={a}stri, Subbar\={a}ya \'{S}\={a}stri and A\d{n}\d{n}asv\={a}mi \'{S}\={a}stri}},
-  Author                   = {{T. K. Govinda Rao}},
-  Publisher                = {{Ganamandir Publications}},
-  Year                     = {2003},
-
-  Timestamp                = {2014.04.09.18}
-}
-
 @Book{temperley2004cognition,
   Title                    = {The cognition of basic musical structures},
   Author                   = {Temperley, David},
@@ -4204,16 +2980,6 @@ year = {2007}
   Publisher                = {JSTOR}
 }
 
-@InCollection{tenzer:06:worldmusic,
-  Title                    = {{Analysis, categorization and theory of musics of the world}},
-  Author                   = {Michael Tenzer},
-  Booktitle                = {Analytical studies in world music},
-  Publisher                = {Oxford University Press},
-  Year                     = {2006},
-
-  Timestamp                = {2014.04.09.18}
-}
-
 @InCollection{thomas2012linking,
   Title                    = {Linking Sheet Music and Audio - {C}hallenges and New Approaches},
   Author                   = {Thomas, Verena and Fremerey, Christian and M{\"u}ller, Meinard and Clausen, Michael},
@@ -4229,31 +2995,6 @@ year = {2007}
   File                     = {2012_ThomasFremereyMuellerClausen_LinkingSheetMusicAudio_DagstuhlFU.pdf:publications/2012_ThomasFremereyMuellerClausen_LinkingSheetMusicAudio_DagstuhlFU.pdf:PDF}
 }
 
-@InProceedings{thompson:14:transcription,
-  Title                    = {{Drum Transcription via Classification of Bar-Level Rhythmic Patterns}},
-  Author                   = {Lucas Thompson and
- Simon Dixon and
- Matthias Mauch},
-  Booktitle                = {{Proceedings of the 15th International Society for Music Information Retrieval Conference (ISMIR 2014)}},
-  Year                     = {2014},
-
-  Address                  = {Taipei, Taiwan},
-  Pages                    = {187--192}
-}
-
-@InProceedings{thoshkahna:11:hpss,
-  Title                    = {{A Postprocessing Technique for Improved Harmonic/Percussion Separation for Polyphonic Music}},
-  Author                   = {Thoshkahna, Balaji and Ramakrishnan, Kalpathi R.},
-  Booktitle                = {{Proceedings of the 12th International Society for Music Information Retrieval Conference (ISMIR 2011)}},
-  Year                     = {2011},
-
-  Address                  = {Miami, FL, USA},
-  Pages                    = {251-256},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.02.26},
-
-}
 
 @article{nakamura2016alignment_repeatskip,
  author = {Nakamura, Tomohiko and Nakamura, Eita and Sagayama, Shigeki},
@@ -4271,7 +3012,6 @@ year = {2007}
  publisher = {IEEE Press},
  address = {Piscataway, NJ, USA},
 } 
-[download]
 
 @Article{tomita2006clique,
   Title                    = {The worst-case time complexity for generating all maximal cliques and computational experiments},
@@ -4288,19 +3028,22 @@ year = {2007}
   Keywords                 = {Maximal cliques},
 }
 
-@ARTICLE{abesser2016jazzIntonation, 
-author={J. Abesser and K. Frieler and E. Cano and M. Pfleiderer and W. G. Zaddach}, 
-journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing}, 
-title={Score-Informed Analysis of Tuning, Intonation, Pitch Modulation, and Dynamics in Jazz Solos}, 
-year={2016}, 
-volume={PP}, 
-number={99}, 
-keywords={Estimation;Frequency estimation;Frequency modulation;Instruments;Music;Tuning;Jazz research;dynamics;fundamental frequency contours;music analysis;score-informed audio analysis;source separation}, 
-doi={10.1109/TASLP.2016.2627186}, 
-ISSN={2329-9290}
-}
-
-
+@article{abesser2016jazzIntonation,
+ author = {Abe{\ss}er, Jakob and Frieler, Klaus and Cano, Estefan\'{i}a and Pfleiderer, Martin and Zaddach, {W}olf-{G}eorg},
+ title = {Score-Informed Analysis of Tuning, Intonation, Pitch Modulation, and Dynamics in Jazz Solos},
+ journal={IEEE/ACM Transactions on Audio, Speech, and Language Processing}, 
+ issue_date = {January 2017},
+ volume = {25},
+ number = {1},
+ year = {2017},
+ issn = {2329-9290},
+ pages = {168--177},
+ numpages = {10},
+ doi = {10.1109/TASLP.2016.2627186},
+ acmid = {3068693},
+ publisher = {IEEE Press},
+ address = {Piscataway, NJ, USA},
+} 
 
 @article{deMaesschalck2000mahalanobis,
 title = "The Mahalanobis distance ",
@@ -4320,62 +3063,22 @@ abstract = "The theory of many multivariate chemometrical methods is based on th
 }
 
 
-@InProceedings{toussaint:04:similarity,
-  Title                    = {{A comparison of rhythmic similarity measures}},
-  Author                   = {Toussaint, Godfried T.},
-  Booktitle                = {{Proceedings of the 5th International Conference on Music Information Retrieval (ISMIR 2004)}},
-  Year                     = {2004},
-
-  Address                  = {Barcelona, Spain},
-
-  __markedentry            = {[Ajay:]},
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04}
-}
-
 @InProceedings{townsend1993pattern,
   Title                    = {Pattern recognition for formant trajectories using the {H}ough transform},
   Author                   = {Townsend, M.A. and Sandler, Mark B.},
-  Booktitle                = {14. Colloque sur le traitement du signal et des images},
+  Booktitle                = {{14. Colloque sur le Traitement du Signal et des Images}},
   Year                     = {1993},
   Organization             = {Groupe d'Etudes du Traitement du Signal et des Images (GRETSI)},
   Pages                    = {1355--1358},
   address = {Juan-les-Pins, France}
 }
 
-@Article{tsunoo:11:perc,
-  Title                    = {{Beyond timbral statistics: Improving music classification using percussive patterns and bass lines}},
-  Author                   = {Tsunoo, E. and Tzanetakis, G. and Ono, N. and Sagayama, S.},
-  Journal                  = {{IEEE Transactions on Audio, Speech, and Language Processing}},
-  Year                     = {2011},
-  Number                   = {4},
-  Pages                    = {1003--1014},
-  Volume                   = {19},
-
-  Owner                    = {Ajay},
-  Publisher                = {IEEE},
-  Timestamp                = {2016.01.04}
-}
 
 @Book{tura1988turk,
   Title                    = {T\"{u}rk Mus{\i}kisinin Meseleleri},
   Author                   = {Yal\c{c}{\i}n Tura},
-  Publisher                = {Pan Yay{\i}nc{\i}l{\i}k, Istanbul (in {T}urkish)},
+  Publisher                = {Pan Yay{\i}nc{\i}l{\i}k, Istanbul},
   Year                     = {1988}
-}
-
-@InProceedings{typke:05:survey,
-  Title                    = {{A Survey of Music Information Retrieval Systems}},
-  Author                   = {Typke, R. and Wiering, F. and Veltkamp, R. C},
-  Booktitle                = {{Proceedings of the 6th International Conference on Music Information Retrieval (ISMIR 2005)}},
-  Year                     = {2005},
-
-  Address                  = {London, United Kingdom},
-  Pages                    = {153--160},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04},
-
 }
 
 @Article{tzanetakis2007computational,
@@ -4388,120 +3091,25 @@ abstract = "The theory of many multivariate chemometrical methods is based on th
   Volume                   = {1}
 }
 
-@InProceedings{uhle:03:tempo,
-  Title                    = {{Estimation of Tempo, Micro Time and Time Signature from Percussive Music}},
-  Author                   = {Christian Uhle and Juergen Herre},
-  Booktitle                = {{Proceedings of 6th International Conference on Digital Audio Effects (DAFX-03)}},
-  Year                     = {2003},
-
-  Address                  = {London, United Kingdom},
-
-  Timestamp                = {2014.04.09.18}
-}
-
 @incollection{bozkurt2015seyir,
       author      = "Boz\-kurt, Bar{{\i}}{\c{s}}",
       title       = "Computational analysis of overall melodic progression for {T}urkish Makam Music",
-      booktitle   = "Penser l'improvisation",
+      booktitle   = "Penser {l'improvisation}",
       publisher   = "Delatour France",
       address     = "Sampzon, France",
       year        = 2015,
-      pages       = "266-290",
+      pages       = "266--290",
       isbn 	  = "9782752102485",
 }
 
 @incollection{bozkurt2011pitch,
       author      = "Boz\-kurt, Bar{{\i}}{\c{s}}",
       title       = "Pitch Histogram based Analysis of Makam Music in {T}urkey",
-      booktitle   = "Proceedings of Les corpus de l’oralité",
+      booktitle   = "{Proceedings of Les corpus de {l'oralité}}",
       address     = "Strasbourg, France",
       year        = 2011
 }
-B. Bozkurt. "Pitch Histogram based Analysis of Makam Music in Turkey", Proc. Les corpus de l’oralité, Nov.24-25,  2011, Strasbourg (France).
 
-@Book{van:84:chinese,
-  Title                    = {{Chinese Music}},
-  Author                   = {Van Aalst, J. A},
-  Publisher                = {Statistical Department of the Inspectorate General of Customs in Shanghai},
-  Year                     = {1884},
-
-  Date-added               = {2013-05-01 19:38:20 +0000},
-  Date-modified            = {2013-05-01 19:38:20 +0000},
-  Owner                    = {mitian},
-  Timestamp                = {2014.04.09.18}
-}
-
-@InProceedings{vasant:08:ifac,
-  Title                    = {{Adaptive Active Noise Control Schemes for Headset Applications}},
-  Author                   = {Veeravasantarao, Dandasi and Srinivasamurthy, Ajay and Patchaikani, Prem Kumar and Behera, Laxmidhar},
-  Booktitle                = {{Proceedings of 17th IFAC World Congress}},
-  Year                     = {2008},
-
-  Address                  = {Seoul, South Korea},
-  Number                   = {1},
-  Pages                    = {7550-7555},
-  Volume                   = {17},
-
-  Timestamp                = {2014.04.15.13}
-}
-
-@InProceedings{vermaak:03:multimodal,
-  Title                    = {{Maintaining multimodality through mixture tracking}},
-  Author                   = {Vermaak, J. and Doucet, A. and P{\'e}rez, P.},
-  Booktitle                = {{Proceedings of the 9th IEEE International Conference on Computer Vision}},
-  Year                     = {2003},
-
-  Address                  = {Nice, France},
-  Pages                    = {1110--1116},
-
-  Owner                    = {hannover},
-  Timestamp                = {2014.03.03}
-}
-
-@InProceedings{vinutha:14:frsm,
-  Title                    = {{Audio Segmentation of Hindustani Music Concert Recordings}},
-  Author                   = {Vinutha, T. P. and Rao, Preeti},
-  Booktitle                = {{Proceedings of the International Symposium, Frontiers of Research on Speech and Music (FRSM)}},
-  Year                     = {2014},
-
-  Address                  = {Mysore, India},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.02.26}
-}
-
-@InProceedings{vinutha:16:sarod,
-  Title                    = {{Reliable Tempo Detection for Structural Segmentation in Sarod Concerts}},
-  Author                   = {Vinutha, T. P. and Sankagiri, Suryanarayana and Rao, Preeti},
-  Booktitle                = {{Proceedings of the National Conference on Communications}},
-  Year                     = {2016},
-
-  Address                  = {Guwahati, India},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.02.26}
-}
-
-@Book{vishwanathan:04:music,
-  Title                    = {{Music in South India}},
-  Author                   = {Viswanathan, T. and Allen, M. H.},
-  Publisher                = {Oxford University Press},
-  Year                     = {2004},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Article{vos:81:perception,
-  Title                    = {{The perceptual onset of musical tones}},
-  Author                   = {Vos, Joos and Rasch, Rudolf},
-  Journal                  = {{Perception \& Psychophysics}},
-  Year                     = {1981},
-  Number                   = {4},
-  Pages                    = {323--335},
-  Volume                   = {29},
-
-  Timestamp                = {2014.04.09.17}
-}
 
 @InProceedings{wang2003industrial,
   Title                    = {An industrial strength audio search algorithm},
@@ -4512,64 +3120,6 @@ B. Bozkurt. "Pitch Histogram based Analysis of Makam Music in Turkey", Proc. Les
   address = {Baltimore, MD, USA}
 }
 
-@Article{wenwu:08:note,
-  Title                    = {{Note Onset Detection via Nonnegative Factorization of Magnitude Spectrum}},
-  Author                   = {Wang, Wenwu and Luo, Yuhui and Chambers, Jonathon and Sanei, Saeid},
-  Journal                  = {{EURASIP Journal on Advances in Signal Processing}},
-  Year                     = {2008},
-  Number                   = {1},
-  Pages                    = {231367},
-  Volume                   = {2008},
-
-  Abstract                 = {A novel approach for onset detection of musical notes from audio signals is presented. In contrast to most commonly used conventional approaches, the proposed method features new detection functions constructed from the linear temporal bases that are obtained from the decomposition of musical spectra using nonnegative matrix factorization (NMF). Three forms of detection function, namely, first-order difference function, psychoacoustically motivated relative difference function, and constant-balanced relative difference function, are considered. As the approach works directly on input data, no prior knowledge or statistical information is therefore required. Practical issues, including the choice of the factorization rank and detection robustness to instruments, are also examined experimentally. Due to the scalability issue with the generated nonnegative matrix, the proposed method is only applied to relatively short, single instrument (or voice) recordings. Numerical examples are provided to show the good performance of the proposed method, including comparisons between the three detection functions.},
-  Doi                      = {10.1155/2008/231367},
-  ISSN                     = {1687-6180}
-}
-
-@InProceedings{whiteley:06:ismir,
-  Title                    = {{Bayesian modelling of temporal structure in musical audio}},
-  Author                   = {Whiteley, Nick and Cemgil, Ali Taylan and Godsill, Simon},
-  Booktitle                = {{Proceedings of the 7th International Society for Music Information Retrieval Conference (ISMIR)}},
-  Year                     = {2006},
-
-  Address                  = {Victoria,Canada},
-
-  Owner                    = {Ajay},
-  Timestamp                = {2016.01.04}
-}
-
-@Book{wichmann:91:BOaural,
-  Title                    = {{Listening to Theatre: The Aural Dimension of Beijing Opera}},
-  Author                   = {Elizabeth Wichmann},
-  Publisher                = {{University of Hawaii Press, Honolulu}},
-  Year                     = {1991},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Article{widdess:94:dhrupad,
-  Title                    = {{Involving the Performers in Transcription and Analysis: A Collaborative Approach to Dhrupad}},
-  Author                   = {Widdess, Richard},
-  Journal                  = {Ethnomusicology},
-  Year                     = {1994},
-  Number                   = {1},
-  Pages                    = {59--79},
-  Volume                   = {38},
-
-  Publisher                = {University of Illinois Press on behalf of Society for Ethnomusicology},
-  Timestamp                = {2014.04.09.17}
-}
-
-@InProceedings{wu:11:beatDP,
-  Title                    = {{A Two-Fold Dynamic Programming Approach to Beat Tracking for Audio Music with Time-Varying Tempo}},
-  Author                   = {Wu, Fu-Hai Frank and Lee, Tsung-Chi and Jang, Jyh-Shing Roger and Chang, Kaichun K. and Lu, Chun-Hung and Wang, Wen-Nan},
-  Booktitle                = {{Proceedings of the 12th International Society for Music Information Retrieval Conference (ISMIR 2011)}},
-  Year                     = {2011},
-
-  address = {Miami, FL, USA},
-  Pages                    = {191--196},
-  Timestamp                = {2014.04.09.18},
-}
 
 @Article{ayangil2001makam,
   Title                    = {{21. yüzyıl eşiğinde Türkiye'de müzik kuramı çalışmaları}},
@@ -4585,7 +3135,9 @@ B. Bozkurt. "Pitch Histogram based Analysis of Makam Music in Turkey", Proc. Les
   Title                    = {79-tone tuning \& theory for {T}urkish maqam music},
   Author                   = {Yarman, Ozan},
   School                   = {{\.I}stanbul Teknik {\"{U}}niversitesi Sosyal Bilimler Enstit{\"{u}}s{\"{u}}},
-  Year                     = {2008}
+  Year                     = {2008},
+  address = {Istanbul, Turkey},
+  Type                     = {{Doctoral dissertation}},
 }
 
 @article{ayangil2008western,
@@ -4600,27 +3152,6 @@ B. Bozkurt. "Pitch Histogram based Analysis of Makam Music in Turkey", Proc. Les
   doi={10.1017/S1356186308008651}
 }
 
-@Misc{yin:14:operaInfoWeb,
-  Title                    = {Chinese Opera Information Centre},
-
-  Author                   = {Yin, Mak Su},
-  HowPublished             = {http://corp.mus.cuhk.edu.hk/corp/html/indexE.htm},
-
-  Date-added               = {2013-05-01 19:38:20 +0000},
-  Date-modified            = {2013-05-01 19:38:20 +0000},
-  LastChecked              = {09/04/2014},
-  Owner                    = {mitian},
-  Timestamp                = {2014.04.09.18}
-}
-
-@Book{young:06:htkbook,
-  Title                    = {The {HTK} Book, version 3.4},
-  Author                   = {Young, S. J. and Evermann, G. and Gales, M. J. F. and Hain, T. and Kershaw, D. and Moore, G. and Odell, J. and Ollason, D. and Povey, D. and Valtchev, V. and Woodland, P. C.},
-  Publisher                = {Cambridge University Engineering Department},
-  Year                     = {2006},
-
-  Address                  = {Cambridge, United Kingdom}
-}
 
 @InProceedings{atici2015makamBox_fma,
   Title                    = {A culture-specific analysis software for makam music traditions},
@@ -4631,57 +3162,3 @@ B. Bozkurt. "Pitch Histogram based Analysis of Makam Music in Turkey", Proc. Les
   Pages                    = {88--92},
   Abstract                 = {Computational analysis of traditional music recordings often requires culture-specific problem definition and methodologies. Our previous efforts were directed towards developing technology for computational analysis of Turkish makam music which shares many common features with other maqam/makam traditions such as Arabic and Persian traditional music. This study presents an interactive tuning analysis tool developed with sufficient flexibility for parameter settings. We demonstrate that the tool can be effectively used for tuning analysis of Turkish music, Arabic music and Persian music once the appropriate settings are supplied by the user, using the interface of the tool.},
 }
-
-@InProceedings{zapata:12:beat,
-  Title                    = {{Assigning a Confidence Threshold on Automatic Beat Annotation in Large Datasets}},
-  Author                   = {Zapata, Jos\'e R. and Holzapfel, Andr\'e and Davies, Matthew E. P. and Oliveira, Joao Lobato and Gouyon, Fabien},
-  Booktitle                = {{Proceedings of 13th International Society for Music Information Retrieval Conference (ISMIR 2012)}},
-  Year                     = {2012},
-
-  Pages                    = {157--162},
-
-  Location                 = {{Porto, Portugal}},
-  Timestamp                = {2014.04.09.18}
-}
-
-@InProceedings{zhang:03:study,
-  Title                    = {{A study on content-based music classification}},
-  Author                   = {Zhang, Yibin and Zhou, Jie},
-  Booktitle                = {{Proceedings of the Seventh International Symposium on Signal Processing and Its Applications}},
-  Year                     = {2003},
-
-  Address                  = {Paris, France},
-  Pages                    = {113--116},
-  Volume                   = {2},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-@Book{wynne:05:corpora,
-  Title                    = {{Developing Linguistic Corpora: a Guide to Good Practice}},
-  Publisher                = {Oxbow Books},
-  Year                     = {2005},
-
-  Address                  = {Oxford},
-
-  Timestamp                = {2014.04.09.18}
-}
-
-
-@comment{jabref-meta: selector_keywords:}
-
-@comment{jabref-meta: selector_author:}
-
-@comment{jabref-meta: groupsversion:3;}
-
-@comment{jabref-meta: groupstree:
-0 AllEntriesGroup:;
-1 ExplicitGroup:instrumentID\;2\;tian:14:icassp\;;
-1 ExplicitGroup:myPapers\;0\;;
-1 ExplicitGroup:compmusicdataset\;0\;chordia:07:tablaDB\;compmusic:12:
-tonicDataset\;compmusic:13:BOExamples\;compmusic:13:dunyacmcollection\
-;compmusic:13:dunyahmcollection\;compmusic:13:msd\;compmusic:13:taalEx
-amples\;compmusic:13:talaExamples\;compmusic:14:cmdf\;compmusic:14:cmv
-arnamDataset\;compmusic:14:corpora\;compmusic:14:datasets\;;
-}
-
